@@ -7,10 +7,10 @@
 */ ?>
 <h2>Atanas Laskov</h2>
 
-<div class="portrait" ><div class="portrait_in" style="background-image: url(<?php echo get_url_path();?>/asset/image/me3.jpg);"></div></div>
+<div class="portrait" ><div class="portrait_in" style="background-image: url(<?= get_template_path() ?>/asset/image/me3.jpg);"></div></div>
 
 <nav>
-  <a href="<?php bloginfo( 'url' ); ?>/gamedev/" <?php if(is_front_page()) echo 'class="activated"'; ?> >Gamedev</a>
-  <a href="<?php bloginfo( 'url' ); ?>/illustration/" <?php if(is_page("illustration")) echo 'class="activated"'; ?> >Illustration</a>
-  <a href="<?php bloginfo( 'url' ); ?>/sketchbook/" <?php if( (!is_front_page()) && (!is_page("illustration"))) echo 'class="activated"'; ?> >Sketchbook</a>
+  <a href="<?= get_home_url() ?>/gamedev/" <?= is_front_page()? 'class="activated"' : '' ?> >Gamedev</a>
+  <a href="<?= get_home_url() ?>/illustration/" <?= is_page("illustration")? 'class="activated"' : '' ?> >Illustration</a>
+  <a href="<?= get_home_url() ?>/sketchbook/" <?= (!is_front_page() && !is_page("illustration"))? 'class="activated"' : '' ?> >Sketchbook</a>
 </nav>

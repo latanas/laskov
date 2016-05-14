@@ -9,7 +9,7 @@
 /*
   Template functions
 */
-function get_url_path() {
+function get_template_path() {
   $uri = parse_url( get_template_directory_uri() );
   return $uri["path"];
 }
@@ -17,12 +17,12 @@ function get_url_path() {
 function template_video_poster($poster, $video, $video_webm, $x, $y) {
   static $id = 1;
 
-  $video_poster_url = get_url_path() . "/asset/video/{$poster}";
+  $video_poster_url = get_template_path() . "/asset/video/{$poster}";
   $video_poster_style = "background-image: url('{$video_poster_url}'); " .
                         "background-position: {$x} {$y};";
 
-  $video_source_mp4 = get_url_path()."/asset/video/{$video}.mp4";
-  $video_source_webm = get_url_path()."/asset/video/{$video_webm}.mp4";
+  $video_source_mp4 = get_template_path()."/asset/video/{$video}.mp4";
+  $video_source_webm = get_template_path()."/asset/video/{$video_webm}.mp4";
 
   include "partial/video.php";
   $id++;
@@ -33,7 +33,7 @@ function template_illustration($file, $x, $y, $spacing_y = 20)
   global $folder;
 
   $image_path = "/asset/illustration/{$folder}/{$file}";
-  $image_url = get_url_path().$image_path;
+  $image_url = get_template_path().$image_path;
 
   $image_size = getimagesize( get_template_directory_uri() . $image_path );
   $image_height = $image_size[1] + $spacing_y*2;

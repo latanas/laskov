@@ -9,7 +9,7 @@
 <h1>Nothing Found</h1>
 
 <p>
-  <?php _e( 'What are you looking for? Perhaps searching can help.', 'laskov' ); ?>
+  What are you looking for? Perhaps searching can help.
 </p>
 
 <?php get_search_form(); ?>

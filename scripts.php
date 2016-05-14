@@ -7,5 +7,4 @@ wp_enqueue_script("interaction", get_template_directory_uri()."/js/interaction.j
 wp_enqueue_script("main", get_template_directory_uri()."/js/main.js", array("jquery", "interaction"), "1.4");
 
 wp_enqueue_style("archivo_narrow", "http://fonts.googleapis.com/css?family=Archivo+Narrow");
-wp_enqueue_style("normalize", get_template_directory_uri()."/normalize.css", array(), "1.0");
-wp_enqueue_style("style", get_template_directory_uri()."/style.css", array("normalize"), "1.9");
+wp_enqueue_style("style", get_template_directory_uri()."/style.css", array(), "1.9");

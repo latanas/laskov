@@ -11,8 +11,10 @@ Description: Portfolio
 Version: 1.5
 Text Domain: laskov
 */
+@import "normalize";
+@import "variables";
 
-html, body{
+html, body {
   width: 100%; height: 100%;
   margin: 0px; padding: 0px;
 }
@@ -20,26 +22,26 @@ html, body{
 body{
   font-size: 15px;
   line-height: 26px;
-  font-family: Arial, sans-serif;
-  color: #605f5f;
+  font-family: $fonts_paragraph;
+  color: $color_neutral;
 
   background: fixed url(asset/image/bg1.jpg) -5px 0px repeat-x, fixed url(asset/image/grass.gif) 0px 0px repeat;
 }
 
 h1, h2, h3, nav a, .play, a, .glyph {
-  font-family: 'Archivo Narrow', 'Arial Narrow', sans-serif;
+  font-family: $fonts_title;
   white-space: nowrap;
 }
 
 a{
-  color: #2e2e2e;
+  color: $color_neutral_dark;
   font-weight: bold;
 }
 a:visited{
-  color: #2e2e2e;
+  color: $color_neutral_dark;
 }
 a:hover{
-  color: #a0b178;
+  color: $color_panel_accent;
 }
 
 /*
@@ -56,7 +58,7 @@ a:hover{
   min-height: 93%;
   padding-top: 1%;
 
-  background-color: #b8cd87;
+  background-color: $color_panel_dark;
 
   border-radius: 12px;
   border-bottom-right-radius: 0px;
@@ -64,10 +66,10 @@ a:hover{
 
   vertical-align:top;
 
-  background: -webkit-linear-gradient(left, #b8cd87, #d1d483);
-  background: -o-linear-gradient(left, #b8cd87, #d1d483);
-  background: -moz-linear-gradient(left, #b8cd87, #d1d483);
-  background: linear-gradient(to right, #b8cd87, #d1d483);
+  background: -webkit-linear-gradient(left, $color_panel_dark, $color_panel_light);
+  background: -o-linear-gradient(left, $color_panel_dark, $color_panel_light);
+  background: -moz-linear-gradient(left, $color_panel_dark, $color_panel_light);
+  background: linear-gradient(to right, $color_panel_dark, $color_panel_light);
 }
 
 main{
@@ -80,7 +82,7 @@ main{
   padding:0px;
   margin: 0px;
 
-  background-color: #fff;
+  background-color: $color_white;
 }
 
 .side_panel{
@@ -106,23 +108,23 @@ main{
 
 }
 footer.content_area{
-  color: #fff;
-  background-color: #a7b97d;
+  color: $color_white;
+  background-color: $color_panel_accent;
   padding-bottom: 100px;
   min-height: 1px;
 }
 footer.content_area a{
-  color: #fff;
+  color: $color_white;
 }
 footer.content_area a:hover{
-  color: #fff;
+  color: $color_white;
 }
 footer > h3{
-  color: #fff;
+  color: $color_white;
 }
 
 h1{
-  color: #5e5e5e;
+  color: $color_neutral;
   font-size: 62px;
   line-height:65px;
 
@@ -131,7 +133,7 @@ h1{
 }
 
 h3{
-  color: #3f3e3e;
+  color: $color_neutral_dark;
   text-decoration: none;
   font-weight: bold;
   font-size: 17px;
@@ -176,16 +178,16 @@ a.illustration{
   padding-bottom: 6px;
 
   border-radius: 10px;
-  background-color: #aaa;
+  background-color: $color_neutral_light;
 
   text-decoration: none;
 }
 a.illustration:hover{
-  background-color: #a7b97d;
+  background-color: $color_panel_accent;
   text-decoration: none;
 }
 .shutter_img{
-  background-color: #a7b97d !important;
+  background-color: $color_panel_accent !important;
   font-size: 14px;
 }
 
@@ -195,7 +197,7 @@ a.illustration:hover{
   height: 100%;
 
   border-radius: 10px;
-  background-color: #fff;
+  background-color: $color_white;
   background-repeat: no-repeat;
 }
 
@@ -214,10 +216,10 @@ a.illustration:hover{
   padding-bottom: 0px;
 
   border-radius: 10px;
-  background-color: #aaa;
+  background-color: $color_neutral_light;
 }
 a.video_poster:hover{
-  background-color: #a7b97d;
+  background-color: $color_panel_accent;
 }
 
 .video_poster > span{
@@ -230,7 +232,7 @@ a.video_poster:hover{
 
 
   border-radius: 10px;
-  background-color: #fff;
+  background-color: $color_white;
   background-repeat: no-repeat;
 }
 
@@ -261,13 +263,13 @@ video{
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 15px;
-  paddding-right: 10px;
+  padding-right: 10px;
 
-  background-color: #fff;
+  background-color: $color_white;
 }
 
 strong{
-  border: 1px solid #aaa;
+  border: 1px solid $color_neutral_light;
   border-radius:4px;
   padding:1px;
   padding-left:3px;
@@ -292,8 +294,8 @@ strong{
   text-align:center;
   font-size:33px;
 
-  background-color:#fff;
-  color:#b8cd87;
+  background-color: $color_white;
+  color: $color_panel_dark;
 }
 .text{
 }
@@ -309,14 +311,14 @@ h2{
 
   width: 220px;
 
-  background-color: #fff;
+  background-color: $color_white;
   border-top-left-radius: 27px;
   border-bottom-right-radius: 27px;
 
   text-align: center;
   padding-top: 15px;
   padding-bottom: 15px;
-  color: #a7b97d;
+  color: $color_panel_accent;
 
   font-size: 22px;
 
@@ -330,7 +332,7 @@ h2{
   width: 110px;
   height: 160px;
 
-  background-color: #fff;
+  background-color: $color_white;
   border-radius: 27px;
 
   padding: 12px;
@@ -370,18 +372,18 @@ nav > a{
 
   font-size: 18px;
   font-weight: regular;
-  color:#fff !important;
+  color: $color_white !important;
   text-decoration: none;
 }
 
 nav a:hover{
-  background-color: #fff;
-  color: #8d8d8d !important;
+  background-color: $color_white;
+  color: $color_neutral !important;
   text-decoration: underline;
 }
 nav > a.activated{
-  background-color: #fff;
-  color: #8d8d8d !important;
+  background-color: $color_white;
+  color: $color_neutral !important;
   text-decoration: underline;
 }
 
@@ -419,7 +421,7 @@ nav > a.activated{
   text-align: center;*/
 }
 .src_expandable{
-  border-left: 1px solid #aaa;
+  border-left: 1px solid $color_neutral_light;
   margin-left: 8px;
   padding-left: 15px;
 
@@ -433,7 +435,7 @@ nav > a.activated{
 }
 .src_class_name{
   font-weight: bold;
-  color: #000;
+  color: $color_neutral_dark;
 }
 
 /*
@@ -496,7 +498,7 @@ section.sketchbook_post blockquote{
 */
 h3.in_blog{
   font-size: 22px;
-  color: #b8cd87;
+  color: $color_panel_dark;
 
   margin-left: 40px;
   margin-top: 70px;
@@ -504,13 +506,13 @@ h3.in_blog{
 }
 
 .paging-navigation {
-  border-top: 5px solid #b8cd87;
+  border-top: 5px solid $color_panel_dark;
   margin: 50px 0;
   margin-top: 30px;
 
   position: relative;
   left: 50px;
-  color:#333;
+  color: $color_neutral_dark;
 }
 
 .paging-navigation .loop-pagination {
@@ -529,15 +531,15 @@ h3.in_blog{
 }
 
 .paging-navigation a {
-  color: #333;
+  color: $color_neutral_dark;
 }
 
 .paging-navigation .page-numbers.current {
-  border-top: 5px solid #fff;
+  border-top: 5px solid $color_white;
 }
 
 .paging-navigation a:hover {
-  color: #333;
+  color: $color_neutral_dark;
 }
 
 /*
@@ -549,13 +551,11 @@ h3.in_blog{
   top: 0px; bottom: 0px;
   width:100px; height:100px;
 
-  background-color: #fff;
+  background-color: $color_white;
   cursor: pointer;
 }
 
 .shutter_img{
-  /*cursor: -webkit-zoom-out !important;
-  cursor: -moz-zoom-out !important;*/
 }
 
 /*
@@ -589,7 +589,7 @@ h3.in_blog{
     height: 90px;
     overflow:hidden;
     padding: 0px;
-    border: 5px solid #fff;
+    border: 5px solid $color_white;
   }
   .portrait_in{
     width: 110px;

@@ -14,22 +14,29 @@ footer {
   margin: 0px;
 
   padding-top: 10px;
-  padding-left: 80px;
+  padding-left: $content_indent;
   padding-right: 50px;
   padding-bottom: 100px;
-
-  min-height: 1px;
 
   color: $color_white;
   background-color: $color_panel_accent;
 
   h3 {
+    display: block;
+    margin: 30px;
+    margin-left: 0px;
+
+    font-size: 18px;
     color: $color_white;
   }
 
   a {
-    margin-right: 30px;
-    color: $color_white;
+    display: inline-block;
+    margin: 30px;
+    margin-left: 0px;
+
+    font-size: 20px;
+    color: $color_white !important;
   }
 
   a:hover {
@@ -43,11 +50,11 @@ footer {
     width: 32px;
     height: 32px;
 
-    padding: 10px;
     margin-right: 10px;
+    padding: 20px;
 
-    text-align:center;
-    font-size:33px;
+    text-align: center;
+    font-size: 40px;
 
     background-color: $color_white;
     color: $color_panel_dark;

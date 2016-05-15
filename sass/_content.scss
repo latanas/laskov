@@ -19,15 +19,17 @@ a {
   color: $color_neutral_dark;
   font-weight: bold;
 }
+
 a:visited {
   color: $color_neutral_dark;
 }
+
 a:hover {
   color: $color_panel_accent;
 }
 
 .content_area {
-  width: 700px;
+  width: 100% - ($content_indent + $content_padding);
   min-height: 1000px;
 
   margin-left: $content_indent;
@@ -41,7 +43,7 @@ a:hover {
 }
 
 .content_area#template_sketchbook {
-  width: 100% !important;
+  width: (100% - $content_indent) !important;
 
   margin-left: $content_indent;
   padding-left: 0px;
@@ -55,7 +57,6 @@ h1 {
   line-height:60px;
 
   font-weight: normal;
-  //margin-top: 54px;
 }
 
 h3 {
@@ -71,7 +72,8 @@ h3 {
 
 p {
   display: block;
-  width: 100%;
+  width: 80%;
+
   margin-bottom: 5px;
 }
 
@@ -93,7 +95,4 @@ strong {
   padding-right:3px;
   margin:1px;
   font-weight: normal;
-}
-
-.text {
 }

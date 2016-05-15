@@ -43,7 +43,7 @@
 
       left: (-1) * ($content_indent + $content_padding);
 
-      width: 100% + $content_padding;
+      width: 100% + $content_indent + $content_padding;
       height: auto;
 
       margin: 0px;

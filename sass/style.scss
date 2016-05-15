@@ -45,20 +45,21 @@ body {
 @media (max-width: 1600px) {
   .content_area {
     border-left: none;
+    margin-left: $content_indent/2;
+    padding-left: $content_padding/2;
   }
 }
 
 @media (max-width: 1350px) {
   .outer_panel {
     width: 980px;
-    /*margin-left: 220px;*/
 
     margin-left: auto;
     margin-right: 70px;
   }
 
   main {
-    width: 700px;
+    width: $content_min;
   }
 }
 

@@ -1,0 +1,53 @@
+/*
+  Project: Portfolio site
+  Copyright (c) 2016 Atanas Laskov
+
+  License: BSD License, see LICENSE file for more details
+  www.atanaslaskov.com
+*/
+@import "variables";
+
+/*
+  Full size page layout
+*/
+.outer_panel {
+  min-width: 700px;
+  max-width: 1600px;
+
+  width: 70%;
+  margin-left: 250px;
+
+  min-height: 100%;
+
+  vertical-align: top;
+  overflow: hidden;
+
+  background-color: $color_panel_dark;
+  background: -webkit-linear-gradient(left, $color_panel_dark, $color_panel_light);
+  background: -o-linear-gradient(left, $color_panel_dark, $color_panel_light);
+  background: -moz-linear-gradient(left, $color_panel_dark, $color_panel_light);
+  background: linear-gradient(to right, $color_panel_dark, $color_panel_light);
+
+  main {
+    display: table-cell;
+    vertical-align: top;
+
+    width: 100%;
+    height: 100%;
+
+    padding: 0px;
+    margin: 0px;
+
+    background-color: $color_white;
+  }
+
+  .side_panel {
+    display: table-cell;
+    vertical-align: top;
+
+    width: 280px;
+    height: 100%;
+
+    padding-right: 32px;
+  }
+}

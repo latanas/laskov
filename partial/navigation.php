@@ -10,7 +10,8 @@
 <div class="portrait" ><div class="portrait_in" style="background-image: url(<?= get_template_path() ?>/asset/image/me3.jpg);"></div></div>
 
 <nav>
-  <a href="<?= get_home_url() ?>/gamedev/" <?= is_front_page()? 'class="activated"' : '' ?> >Gamedev</a>
-  <a href="<?= get_home_url() ?>/illustration/" <?= is_page("illustration")? 'class="activated"' : '' ?> >Illustration</a>
-  <a href="<?= get_home_url() ?>/sketchbook/" <?= (!is_front_page() && !is_page("illustration"))? 'class="activated"' : '' ?> >Sketchbook</a>
+  <?php foreach( array("gamedev", "illustration", "sketchbook") as $template ): ?>
+    <a href="<?= get_home_url() . "/{$template}/" ?>"
+      class="<?= (get_template_name() == $template)? 'activated' : '' ?>" ><?= ucfirst($template) ?></a>
+  <?php endforeach ?>
 </nav>

@@ -5,30 +5,22 @@
   License: BSD License, see LICENSE file for more details
   www.atanaslaskov.com
 */ ?>
-<div class="spacer_top"></div>
-<div class="out_panel">
+
+<div class="outer_panel">
 
   <div class="small_menu">
     <?php include "partial/navigation.php"; ?>
   </div>
 
   <main>
-    <article class="content_area">
+    <article class="content_area" id="template_<?= get_template_name() ?>" >
       <?php /* Preload photo */ ?>
       <span style="background-image: url('<?=get_template_directory_uri()?>'/asset/image/me3.jpg); display:none;"></span>
 
-      <?php if ( is_front_page() ) {
-        include "partial/gamedev.php";
-      }
-      else if( is_page("illustration") ) {
-        include "partial/illustration.php";
-      }
-      else {
-        include "partial/sketchbook.php";
-      }?>
+      <?php include "partial/" . get_template_name() . ".php"; ?>
     </article>
 
-    <footer class="content_area">
+    <footer>
       <?php include "partial/contact.php"; ?>
     </footer>
   </main>

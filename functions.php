@@ -14,12 +14,21 @@ function get_template_path() {
   return $uri["path"];
 }
 
+function get_template_name() {
+  if( is_front_page() ) {
+    return "gamedev";
+  }
+  else if( is_page("illustration") ) {
+    return "illustration";
+  }
+  return "sketchbook";
+}
+
 function template_video_poster($poster, $video, $video_webm, $x, $y) {
   static $id = 1;
 
   $video_poster_url = get_template_path() . "/asset/video/{$poster}";
-  $video_poster_style = "background-image: url('{$video_poster_url}'); " .
-                        "background-position: {$x} {$y};";
+  $video_poster_style = "background-image: url('{$video_poster_url}'); ";
 
   $video_source_mp4 = get_template_path()."/asset/video/{$video}.mp4";
   $video_source_webm = get_template_path()."/asset/video/{$video_webm}.mp4";
@@ -28,19 +37,31 @@ function template_video_poster($poster, $video, $video_webm, $x, $y) {
   $id++;
 }
 
-function template_illustration($file, $x, $y, $spacing_y = 20)
+function template_illustration($file, $view_x, $view_y, $spacing_y = 20)
 {
   global $folder;
 
   $image_path = "/asset/illustration/{$folder}/{$file}";
   $image_url = get_template_path().$image_path;
-
   $image_size = getimagesize( get_template_directory_uri() . $image_path );
-  $image_height = $image_size[1] + $spacing_y*2;
 
-  $image_style = "background-image:url('{$image_url}'); " .
-                 "background-position: {$x}% {$y}%; " .
-                 "max-height: {$image_height}px;";
+  $image_w_max = $image_size[0];
+  $image_h_max = $image_size[1];
+  $image_aspect = $image_w_max / $image_h_max;
+
+  $image_w = 700;
+  $image_h = $image_w / $image_aspect;
+
+  $view_size = 100;
+  $x = (-1)*($image_w - $view_size) * ( $view_x/100.0 );
+  $y = (-1)*($image_h - $view_size) * ( $view_y/100.0 );
+
+  $image_style = "width: {$image_w}px; " .
+                 "height: {$image_h}px; " .
+                 //"max-width: {$image_w_max}px; " .
+                 //"max-height: {$image_h_max}px; " .
+                 "left: {$x}px; " .
+                 "top: {$y}px;";
 
   include "partial/picture.php";
 }

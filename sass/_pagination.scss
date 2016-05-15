@@ -1,0 +1,58 @@
+/*
+  Project: Portfolio site
+  Copyright (c) 2016 Atanas Laskov
+
+  License: BSD License, see LICENSE file for more details
+  www.atanaslaskov.com
+*/
+@import "variables";
+
+
+/*
+  Sketchbook pagination
+*/
+h3.in_blog{
+  font-size: 22px;
+  color: $color_panel_dark;
+
+  margin-left: 40px;
+  margin-top: 70px;
+  padding-top:0px;
+}
+
+.paging-navigation {
+  border-top: 5px solid $color_panel_dark;
+  margin: 50px 0;
+  margin-top: 30px;
+
+  position: relative;
+  left: 50px;
+  color: $color_neutral_dark;
+}
+
+.paging-navigation .loop-pagination {
+  margin-top: -5px;
+  text-align: center;
+}
+
+.paging-navigation .page-numbers {
+  border-top: 5px solid transparent;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 900;
+  margin-right: 1px;
+  padding: 7px 16px;
+  text-transform: uppercase;
+}
+
+.paging-navigation a {
+  color: $color_neutral_dark;
+}
+
+.paging-navigation .page-numbers.current {
+  border-top: 5px solid $color_white;
+}
+
+.paging-navigation a:hover {
+  color: $color_neutral_dark;
+}

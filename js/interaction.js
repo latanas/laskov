@@ -30,9 +30,10 @@ function openIllustrationShutter(e){
   e.preventDefault();
 
   o = $(this);
-  var os = o.clone();
-
   is_video = o.hasClass("video_poster");
+
+  var os = o.clone();
+  var os_img = os.find("img").first();
 
   /*
     Prepare animation
@@ -41,32 +42,41 @@ function openIllustrationShutter(e){
   os.css({top:o.offset().top, left:o.offset().left});
   os.addClass("shutter_img");
 
-  var imgh = 0, imgw = 0;
+  var imgh = 0, imgw = 0, imgtop = 0;
 
-  if(is_video){
+  if(is_video)
+  {
     v = $("#" + o.attr("id") + "_video");
     imgh = 394;
     imgw = 705;
   }
   else
   {
-    imgh = os.children().first().css('max-height');
-    imgh = parseInt(imgh.replace("px", ""));
-
-    imgw = 600;
+    imgw = parseInt( os_img.css('width').replace("px", "") );
+    imgh = parseInt( os_img.css('height').replace("px", "") );
+    imgtop = parseInt(os_img.css('top').replace("px", ""));
   }
 
-  var miny = $("main").offset().top-7;
-  var maxy = $("main").height()+miny-imgh-50;
-
-
-  var ah = imgh;
   var aw = $("main").width();
-  //var at = (o.offset().top-(imgh/2));
-  var at = $(window).scrollTop() + ($(window).height()-imgh)/2;
+  var ah = imgh * (aw/imgw);
+
+  var miny = $("main").offset().top-7;
+  var maxy = $("main").height()+miny-ah-50;
+
+  var at = $(window).scrollTop() + ($(window).height()-ah)/2;
   var al = $("main").offset().left;
 
-  at = Math.min(maxy,Math.max(at,miny));
+  if( at > maxy ) {
+    at = maxy;
+  }
+
+  if( at < miny ) {
+    at = miny;
+  }
+
+  if( $(".outer_panel").height() < at + ah ) {
+    $(".outer_panel").css("min-height", (at + ah + 100) + "px")
+  }
 
   var sh = $('<div class="shutter"></div>').first();
   var sh_target = $("main");
@@ -74,7 +84,7 @@ function openIllustrationShutter(e){
   sh.css("position", "absolute");
   sh.css({top:sh_target.offset().top, left:sh_target.offset().left});
   sh.css("width", sh_target.width());
-  sh.css("height", sh_target.height());
+  sh.css("height", sh_target.height() );
 
   sh.appendTo("body");
   os.appendTo("body");
@@ -85,13 +95,18 @@ function openIllustrationShutter(e){
     Animate
   */
   sh.fadeIn("fast");
-  os.animate(
-    {left:al+"px",width:aw+"px"/*,'background-position-x':"0%"*/},
-    940,"swing",function(ee)
-  {
-    os.animate(
-    {top:at+"px",height:ah+"px"/*, 'background-position-y':"0%"*/},
-    950,"swing",function(ee)
+
+  os_img.animate({
+    width: aw + "px", height: ah + "px",
+    left: "0px", top: (imgtop * (ah/imgh)) + "px"
+  }, 940);
+
+  os.animate({ left:al+"px", width:aw+"px" }, 940,"swing",
+  function(ee) {
+    os_img.animate({ top:"0px" }, 940);
+
+    os.animate({ top:at+"px",height:ah+"px" }, 950,"swing",
+    function(ee)
     {
       sh.on("click",closeIllustrationShutter);
       os.on("click",closeIllustrationShutter);
@@ -161,8 +176,8 @@ function openIllustrationShutter(e){
         var msg_at = os.offset().top - $("main").offset().top + ah + 50;
         $(".shutter").html('<div style="position: relative; top: '+msg_at+'px; left: 300px; width: 120px;">(click to return)</div>');
       }
-      else{
-        os.children().first().html('&nbsp;&nbsp;&nbsp;&nbsp;Close');
+      else {
+        os.append('<p class="close">Close</p>');
       }
 
     });
@@ -178,7 +193,7 @@ function closeIllustrationShutter(e){
 
   var close_shutter = function()
   {
-
+    $(".shutter_img").find(".close").hide();
     $(".shutter").fadeOut("fast",function(){$(".shutter").remove();});
 
     $(".shutter_img").animate(
@@ -187,7 +202,7 @@ function closeIllustrationShutter(e){
     {
 
       $(".shutter_img").animate(
-        {left:o.offset().left+"px",width:o.width()+"px"},
+        {left:o.offset().left+"px",width:o.width()+"px",opacity: "0"},
         500,"swing",function(ee2)
         {
           if(is_video){
@@ -206,14 +221,14 @@ function closeIllustrationShutter(e){
     });
   };
 
+    $(".shutter_img").find(".close").hide();
+
   if(is_video){
-    $(".shutter_img").children().first().html('');
     v.fadeOut("slow",function(){
       close_shutter();
     });
   }
   else {
-    $(".shutter_img").children().first().html('');
     close_shutter();
   }
 }

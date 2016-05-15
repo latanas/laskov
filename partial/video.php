@@ -6,7 +6,7 @@
   www.atanaslaskov.com
 */ ?>
 <a href="<?= $video_poster_url ?>" class="video_poster" id="poster_<?= $id ?>">
-  <span style="<?= $video_poster_style ?>">
+  <span class="video_picture" style="<?= $video_poster_style ?>">
     <span class="play">Play this video</span>
   </span>
 </a>

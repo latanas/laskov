@@ -10,7 +10,7 @@ $(function()
 {
   // Illustrations and video
   //
-  $(".illustration").click(openIllustrationShutter);
+  $(".illustration_outer").click(openIllustrationShutter);
   $(".video_poster").click(openIllustrationShutter);
   $(window).resize(resizeShutter);
 

@@ -5,7 +5,7 @@
   License: BSD License, see LICENSE file for more details
   www.atanaslaskov.com
 */ ?>
-<h1>Laskov @ Illustration</h1>
+<h1>Laskov / Illustration</h1>
 
 <p class="illustration_block" style="padding-top:6px;">
   <?php

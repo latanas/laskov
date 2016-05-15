@@ -5,7 +5,8 @@
   License: BSD License, see LICENSE file for more details
   www.atanaslaskov.com
 */ ?>
-<a href="<?= $image_url ?>" class="illustration">
-  <span class="illustration_in" style="<?= $image_style ?>">
+<a class="illustration_outer" href="<?= $image_url ?>">
+  <span>
+    <img src="<?= $image_url ?>" style="<?= $image_style ?>" />
   </span>
 </a>

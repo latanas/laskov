@@ -1,0 +1,48 @@
+/*
+  Project: Portfolio site
+  Copyright (c) 2016 Atanas Laskov
+
+  License: BSD License, see LICENSE file for more details
+  www.atanaslaskov.com
+*/
+@import "variables";
+
+/*
+  Source code snippet
+*/
+.src_view {
+  width: 550px;
+  font-family: monospace;
+}
+
+.src_title{
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.src_button{
+  padding-bottom: 4px;
+  font-size: 12px;
+}
+
+.src_title strong {
+}
+
+.src_expandable{
+  border-left: 1px solid $color_neutral_light;
+  margin-left: 8px;
+  padding-left: 15px;
+
+  padding-top: 5px;
+  margin-bottom: 10px;
+}
+
+.src_class{
+  font-weight: bold;
+  color: $color_panel_accent;
+}
+
+.src_class_name{
+  font-weight: bold;
+  color: $color_neutral_dark;
+}

@@ -5,7 +5,7 @@
   License: BSD License, see LICENSE file for more details
   www.atanaslaskov.com
 */ ?>
-<h1 id="engine">Laskov @ Gamedev</h1>
+<h1 id="engine">Laskov / Gamedev</h1>
 
 <p>
   Explore the <a href="http://www.github.com/latanas/arena/" target="_blank">Code</a>

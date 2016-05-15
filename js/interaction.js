@@ -5,17 +5,28 @@
   License: BSD License, see LICENSE file for more details
   www.atanaslaskov.com
 */
+function interaction() {
+  var self = this;
 
-var o = null, v = null;
-var is_video = false, ibuf_video = null;
+  self.o = null;
+  self.video = null;
+
+  self.is_video = false;
+  self.ibuf_video = null;
+
+  self.img_w = 0;
+  self.img_h = 0;
+  self.img_top = 0;
+  self.img_left = 0;
+}
 
 /*
   Decide on video support
 */
-function hasVideo(v_dom_obj){
-  if(!!v_dom_obj.canPlayType){
-    if(v_dom_obj.canPlayType('video/mp4; codecs="avc1.4D401E"')==""){
-      if(v_dom_obj.canPlayType('video/webm; codecs="vp8.0, vorbis"')=="")
+interaction.hasVideo = function( dom_obj ) {
+  if( !!dom_obj.canPlayType ) {
+    if( dom_obj.canPlayType('video/mp4; codecs="avc1.4D401E"')=="" ) {
+      if( dom_obj.canPlayType('video/webm; codecs="vp8.0, vorbis"')=="" )
         return false;
     }
     return true;
@@ -26,39 +37,41 @@ function hasVideo(v_dom_obj){
 /*
   Open illustration/video
 */
-function openIllustrationShutter(e){
+interaction.openIllustrationShutter = function( dom_obj, e ) {
+  var self = this;
   e.preventDefault();
 
-  o = $(this);
-  is_video = o.hasClass("video_poster");
+  self.o = $(dom_obj);
+  self.is_video = self.o.hasClass("video_poster");
 
-  var os = o.clone();
+  var os = self.o.clone();
   var os_img = os.find("img").first();
 
   /*
     Prepare animation
   */
   os.css("position", "absolute");
-  os.css({top:o.offset().top, left:o.offset().left});
+  os.css({ top: self.o.offset().top, left: self.o.offset().left });
   os.addClass("shutter_img");
 
-  var imgh = 0, imgw = 0, imgtop = 0;
-
-  if(is_video)
+  if( self.is_video )
   {
-    v = $("#" + o.attr("id") + "_video");
-    imgh = 394;
-    imgw = 705;
+    self.video = $( "#" + self.o.attr("id") + "_video" );
+    self.img_h = 394;
+    self.img_w = 705;
+    self.img_top = 0;
+    self.img_left = 0;
   }
   else
   {
-    imgw = parseInt( os_img.css('width').replace("px", "") );
-    imgh = parseInt( os_img.css('height').replace("px", "") );
-    imgtop = parseInt(os_img.css('top').replace("px", ""));
+    self.img_w = parseInt( os_img.css('width').replace("px", "") );
+    self.img_h = parseInt( os_img.css('height').replace("px", "") );
+    self.img_top = parseInt(os_img.css('top').replace("px", ""));
+    self.img_left = parseInt(os_img.css('left').replace("px", ""));
   }
 
   var aw = $("main").width();
-  var ah = imgh * (aw/imgw);
+  var ah = self.img_h * (aw/self.img_w);
 
   var miny = $("main").offset().top-7;
   var maxy = $("main").height()+miny-ah-50;
@@ -98,7 +111,7 @@ function openIllustrationShutter(e){
 
   os_img.animate({
     width: aw + "px", height: ah + "px",
-    left: "0px", top: (imgtop * (ah/imgh)) + "px"
+    left: "0px", top: (self.img_top * (ah/self.img_h)) + "px"
   }, 940);
 
   os.animate({ left:al+"px", width:aw+"px" }, 940,"swing",
@@ -108,69 +121,78 @@ function openIllustrationShutter(e){
     os.animate({ top:at+"px",height:ah+"px" }, 950,"swing",
     function(ee)
     {
-      sh.on("click",closeIllustrationShutter);
-      os.on("click",closeIllustrationShutter);
+      sh.on("click", function(e) {
+        self.closeIllustrationShutter(e);
+      });
+      os.on("click", function(e) {
+        self.closeIllustrationShutter(e);
+      });
 
       /*
         Actions for video playback
       */
-      if(is_video){
+      if( self.is_video ) {
         var osi = os.children().first();
 
-        v.hide();
-        v.css("opacity","");
-        v.css({top:osi.offset().top, left:osi.offset().left});
-        v.css("width", osi.width());
-        v.css("height", osi.height());
-        v.on("click", closeIllustrationShutter);
+        self.video.hide();
+        self.video.css("opacity","");
+        self.video.css({top:osi.offset().top, left:osi.offset().left});
+        self.video.css("width", osi.width());
+        self.video.css("height", osi.height());
+
+        self.video.on("click", function(e) {
+          self.closeIllustrationShutter(e);
+        });
 
         /*
           Launch video ( if supported )
         */
-        var v_dom = v.get(0);
+        var v_dom = self.video.get(0);
 
-        if( hasVideo(v_dom) )
+        if( self.hasVideo(v_dom) )
         {
-          o.children().first().html('<span class="play">Resume video</span>');
+          self.o.children().first().html('<span class="play">Resume video</span>');
 
           // Play video function
           //
-          var play_video_now = function()
+          var _play_video = function()
           {
             os.children().first().html('');
 
-            v.bind('ended', function (){
-              o.children().first().html('<span class="play">Replay</span>');
-              closeIllustrationShutter(e);
+            self.video.bind('ended', function (){
+              self.o.children().first().html('<span class="play">Replay</span>');
+              self.closeIllustrationShutter(e);
             });
             v_dom.play();
-            v.fadeIn("slow");
+            self.video.fadeIn("slow");
           };
 
           // Play it when data is preloaded
           //
-          if (v_dom.readyState >= v_dom.HAVE_ENOUGH_DATA)  play_video_now();
+          if (v_dom.readyState >= v_dom.HAVE_ENOUGH_DATA)  _play_video();
           else
           {
             var buf_text = "Buffering";
             var buf_dots = "";
             os.children().first().html('<span class="play" id="buf_message">'+buf_text+'</span>');
 
-            ibuf_video = setInterval(function(){
-              if (v_dom.readyState >= v_dom.HAVE_ENOUGH_DATA)  { play_video_now(); clearInterval(ibuf_video); ibuf_video=null; }
-              else{
+            self.ibuf_video = setInterval(function(){
+              if (v_dom.readyState >= v_dom.HAVE_ENOUGH_DATA) {
+                _play_video();
+                clearInterval( self.ibuf_video );
+                self.ibuf_video = null;
+              }
+              else {
                 buf_dots = buf_dots.length >= 10 ? "" : buf_dots+" .";
                 $("#buf_message").html(buf_text+buf_dots);
               }
             },500);
-
           }
-
         }
         else
         {
           os.children().first().html('<span class="play">Video playback is not available.</span>');
-          o.children().first().html('<span class="play">Video playback is not available.</span>');
+          self.o.children().first().html('<span class="play">Video playback is not available.</span>');
         }
 
         var msg_at = os.offset().top - $("main").offset().top + ah + 50;
@@ -181,63 +203,84 @@ function openIllustrationShutter(e){
       }
 
     });
-
   });
 }
 
 /*
   Close illustration/video
 */
-function closeIllustrationShutter(e){
+interaction.closeIllustrationShutter = function( e ) {
+  var self = this;
   e.preventDefault();
 
-  var close_shutter = function()
+  var _close = function()
   {
-    $(".shutter_img").find(".close").hide();
-    $(".shutter").fadeOut("fast",function(){$(".shutter").remove();});
+    var os = $(".shutter_img");
+    var os_img = os.find("img").first();
 
-    $(".shutter_img").animate(
-      {top:o.offset().top+"px",height:o.height()+"px"},
-      500,"swing",function(ee)
-    {
+    $(".shutter").fadeOut("fast", function(){
+      $(".shutter").remove();
+    });
+    os.find(".close").hide();
 
-      $(".shutter_img").animate(
-        {left:o.offset().left+"px",width:o.width()+"px",opacity: "0"},
-        500,"swing",function(ee2)
-        {
-          if(is_video){
-            if(hasVideo(v.get(0))) v.get(0).pause();
-            if(ibuf_video) clearInterval(ibuf_video);
-            v.unbind("ended");
-            v.off();
+    var img_h_max = 0;
 
-          }
+    if( !self.is_video ) {
+      img_h_max = parseInt( os_img.css('height').replace("px", "") );
+    }
 
-          $(".shutter_img").remove();
-          o = null;
-          v = null;
-          is_video = false;
-      });
+    os_img.animate({ top: (self.img_top*(img_h_max/self.img_h)) + "px" }, 500);
+    os.animate(
+      { top: self.o.offset().top+"px", height: self.o.height()+"px" },
+      500,"swing",
+      function(ee)
+      {
+        os_img.animate({
+          width: self.img_w + "px",
+          height: self.img_h + "px",
+          left: self.img_left + "px",
+          top: self.img_top + "px"
+        }, 500);
+
+        os.animate(
+          { left: self.o.offset().left+"px", width: self.o.width()+"px" },
+          500,"swing",
+          function(ee2)
+          {
+            if( self.is_video ) {
+              if( self.hasVideo( self.video.get(0)) ) {
+                self.video.get(0).pause();
+              }
+              if( self.ibuf_video ) {
+                clearInterval( self.ibuf_video );
+              }
+              self.video.unbind("ended");
+              self.video.off();
+            }
+
+            os.remove();
+            self.o = null;
+            self.video = null;
+            self.is_video = false;
+        });
     });
   };
 
-    $(".shutter_img").find(".close").hide();
-
-  if(is_video){
-    v.fadeOut("slow",function(){
-      close_shutter();
-    });
+  if( self.is_video ) {
+    self.video.fadeOut( "slow", _close );
   }
   else {
-    close_shutter();
+    _close();
   }
 }
 
 /*
   Handle screen size changes
 */
-function resizeShutter(){
-  if(o)
+interaction.resizeShutter = function() {
+  var self = this;
+
+  if( self.o )
   {
     var sh = $('.shutter');
     var sh_target = $("main");
@@ -246,8 +289,10 @@ function resizeShutter(){
     sh.css("width", sh_target.width());
     sh.css("height", sh_target.height());
 
-
     $(".shutter_img").css({left:sh_target.offset().left});
-    if(is_video) v.css({left:sh_target.offset().left});
+
+    if( self.is_video ) {
+      self.video.css({ left:sh_target.offset().left });
+    }
   }
 }

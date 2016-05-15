@@ -10,9 +10,15 @@ $(function()
 {
   // Illustrations and video
   //
-  $(".illustration_outer").click(openIllustrationShutter);
-  $(".video_poster").click(openIllustrationShutter);
-  $(window).resize(resizeShutter);
+  $(".illustration_outer").click( function( e ) {
+    interaction.openIllustrationShutter( this, e );
+  });
+  $(".video_poster").click( function( e ) {
+    interaction.openIllustrationShutter( this, e );
+  });
+  $(window).resize( function() {
+    interaction.resizeShutter();
+  });
 
   // Expandable code sections
   //

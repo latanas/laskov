@@ -24,11 +24,12 @@ function get_template_name() {
   return "sketchbook";
 }
 
-function template_video_poster($poster, $video, $video_webm, $x, $y) {
+function template_video_poster($poster, $video, $video_webm, $poster_zoom) {
   static $id = 1;
 
   $video_poster_url = get_template_path() . "/asset/video/{$poster}";
-  $video_poster_style = "background-image: url('{$video_poster_url}'); ";
+  $video_poster_style = "background-image: url('{$video_poster_url}'); " .
+                        "background-size: {$poster_zoom}% auto;";
 
   $video_source_mp4 = get_template_path()."/asset/video/{$video}.mp4";
   $video_source_webm = get_template_path()."/asset/video/{$video_webm}.mp4";

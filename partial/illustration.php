@@ -10,15 +10,15 @@
 <p class="illustration_block" style="padding-top:6px;">
   <?php
   $folder="color";
-  template_illustration("Laskov_RedQueen.jpg", 10,10);
-  template_illustration("Laskov_Monastery_700.jpg", 80,80,0);
+  template_illustration("Laskov_RedQueen_1100.jpg", 10,10);
+  template_illustration("Laskov_Monastery_1100.jpg", 80,82,0);
   ?>
 
   <?php
   $folder = "bw1";
-  template_illustration("Laskov_Arha_700.png", 37,40);
-  template_illustration("Laskov_PeterAndWendy.png", 56,16);
-  template_illustration("LaskovGargoyleCliff_700.jpg", 75,65);
+  template_illustration("Laskov_Arha_1100.jpg", 37,40);
+  template_illustration("Laskov_PeterAndWendy_1100.png", 56,16);
+  template_illustration("LaskovGargoyleCliff_1000.jpg", 75,65);
   template_illustration("laskov_town_650.png", 40,85);
   template_illustration("laskov_tpe_1.png", 37,35);
 

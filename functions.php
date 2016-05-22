@@ -119,3 +119,17 @@ function template_pagination()
 
   include "partial/pagination.php";
 }
+
+function analytics_action() {
+  if ( is_user_logged_in() ) {
+    return;
+  }
+  if( strpos(get_template_directory_uri(), "localhost") !== false ) {
+    return;
+  }
+
+  if ( file_exists(get_template_directory()."/partial/analytics.php") ) {
+    include get_template_directory()."/partial/analytics.php";
+  }
+}
+add_action( 'wp_footer', 'analytics_action' );

@@ -3,6 +3,7 @@ asset/illustration/
 asset/video/
 asset/document/
 js/lib/
+partial/analytics.php
 .sass-cache/
 style.css
 style.css.map

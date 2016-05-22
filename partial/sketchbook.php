@@ -25,7 +25,7 @@ if ( have_posts() ) :
     echo '</section>';
   endwhile;
 
-  echo "<h3 class='in_blog'>&copy; {$year_of_publishing} Atanas Laskov</h3>";
+  echo "<h3 class='copy'>&copy; {$year_of_publishing} Atanas Laskov</h3>";
   template_pagination();
 
 else :

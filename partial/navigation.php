@@ -5,13 +5,9 @@
   License: BSD License, see LICENSE file for more details
   www.atanaslaskov.com
 */ ?>
-<h2>Atanas Laskov</h2>
-
-<div class="portrait" ><div class="portrait_in" style="background-image: url(<?= get_template_path() ?>/asset/image/me3.jpg);"></div></div>
-
 <nav>
-  <?php foreach( array("gamedev", "illustration", "sketchbook") as $template ): ?>
+  <?php foreach( array("illustration", "sketchbook", "essays", "gamedev") as $template ): ?>
     <a href="<?= get_home_url() . "/{$template}/" ?>"
-      class="<?= (get_template_name() == $template)? 'activated' : '' ?>" ><?= ucfirst($template) ?></a>
+      class="<?= (   (($template == "essays") && is_page() && !is_page(array("illustration", "sketchbook", "essays", "gamedev")) ) ||      (is_home() || is_page(array("illustration", "sketchbook", "essays", "gamedev"))) && (get_template_name() == $template)) ? 'activated' : '' ?>" ><?= ucfirst($template) ?></a>
   <?php endforeach ?>
 </nav>

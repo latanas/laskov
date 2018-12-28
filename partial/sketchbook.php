@@ -15,7 +15,7 @@ if ( have_posts() ) :
       $year_of_publishing = get_the_date("Y");
 
     echo "<header class=\"sketchbook_post\">";
-    echo "<h3>" . get_the_title() . "</h3>";
+    echo "<h3>" . ucwords(get_the_title()) . "</h3>";
     echo "<strong> " . get_the_date() . " </strong>";
     echo "<strong> " . get_the_time() . " </strong>";
     echo "</header>";
@@ -24,9 +24,6 @@ if ( have_posts() ) :
     echo wpautop(get_the_content());
     echo '</section>';
   endwhile;
-
-  echo "<h3 class='copy'>&copy; {$year_of_publishing} Atanas Laskov</h3>";
-  template_pagination();
 
 else :
   // If no content, include the "Not found" page

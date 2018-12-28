@@ -5,35 +5,62 @@
   License: BSD License, see LICENSE file for more details
   www.atanaslaskov.com
 */ ?>
-<h1>Laskov / Illustration</h1>
+
+<header class="sketchbook_post">
+<h1>Illustrations</h1>
+by <strong>Atanas Laskov</strong>
+</header>
+
+<h3>Figure Drawings</h3>
 
 <p class="illustration_block" style="padding-top:6px;">
   <?php
   $folder="color";
-  template_illustration("Laskov_RedQueen_1100.jpg", 10,10);
-  template_illustration("Laskov_Monastery_1100.jpg", 80,82,0);
+  template_illustration("laskov_2018_08_17_part1a.png", 93,30);
+  template_illustration("Laskov_peope_2018_08_28i.jpg", 5,1,0);
+  template_illustration("laskov_sketch-2018-05-09.jpg", 50,10,0);
+  template_illustration("laskov_sketches_2018_11_14g_p1_1100.png", 11,5,0);
+  template_illustration("Laskov-Sketches2018-06-04a.jpg", 15,1,0);
+  template_illustration("laskov_sketches_2018_11_14_p2e.png", 15,1,0);
   ?>
+</p>
 
+<h3>Sequential Art and Character Design</h3>
+
+<p class="illustration_block" style="padding-top:6px;">
   <?php
-  $folder = "bw1";
-  template_illustration("Laskov_Arha_1100.jpg", 37,40);
-  template_illustration("Laskov_PeterAndWendy_1100.png", 56,16);
-  template_illustration("LaskovGargoyleCliff_1000.jpg", 75,65);
-  template_illustration("laskov_town_650.png", 40,85);
-  template_illustration("laskov_tpe_1.png", 37,35);
 
-  $folder="bw2";
-  template_illustration("Laskov_HornedIdol.gif", 80,80,0);
-  template_illustration("VampKnightSkc.png", 24,20);
+  $folder="bw";
+  template_illustration("Laskov_gf_cover_colour_c4.jpg", 48,27);
+  template_illustration("Laskov_GriffinFly_1_21.jpg", 59,50,0);
+  template_illustration("Laskov_GriffinFly_1_22.jpg", 43,80,0);
+  template_illustration("Laskov_GriffinFly_1_23.jpg", 30,11,0);
+  template_illustration("Laskov_GriffinFly_1_24.jpg", 47,23,0);
+  template_illustration("Laskov_GriffinFly_1_25.jpg", 46,26,0);
+  template_illustration("Laskov_GriffinFly_1_26.jpg", 10,20,0);
+  ?>
+</p>
 
-  $folder = "sketches";
-  template_illustration("laskov-ed-sk-01a.png", 81,5);
+<p class="illustration_block" style="padding-top:6px;">
+  <?php
 
-  $folder="bw1";
-  template_illustration("tpe_laskov-11.png", 70,92);
+  $folder = "bw";
+  template_illustration("Small_1_02.png", 20,29);
+  template_illustration("Small_1_08.png", 82,26,0);
+  template_illustration("Small_1_10.png", 49,19,0);
+  template_illustration("Laskov_GriffinFly_1_17_lowrez_a.jpg", 68,57,0);
+  template_illustration("Laskov_GriffinFly_1_19_lowrez",35,51,0);
 
-  $folder = "sketches";
-  template_illustration("Laskov_Greek_Head.png", 55,45);
+  $folder="color";
+  template_illustration("Daphne_color_1100.jpg", 53,20);
+  template_illustration("Laskov_TheRedQueen_1100.png", 11,7,0);
+  template_illustration("Laskov_Monastery_1100.png", 11,7,0);
+
+  $folder="color";
+  template_illustration("Laskov_ice_witch.png", 45,15,0);
+
+  $folder = "bw";
+  template_illustration("Laskov_PeterAndWendy_1100.png", 11,15,0);
   ?>
 </p>
 

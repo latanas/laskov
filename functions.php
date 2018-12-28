@@ -16,10 +16,13 @@ function get_template_path() {
 
 function get_template_name() {
   if( is_front_page() ) {
-    return "gamedev";
-  }
-  else if( is_page("illustration") ) {
     return "illustration";
+  }
+  else if( is_page("essays") ) {
+    return "essays";
+  }
+  else if( is_page("gamedev") ) {
+    return "gamedev";
   }
   return "sketchbook";
 }
@@ -59,8 +62,6 @@ function template_illustration($file, $view_x, $view_y, $spacing_y = 20)
 
   $image_style = "width: {$image_w}px; " .
                  "height: {$image_h}px; " .
-                 //"max-width: {$image_w_max}px; " .
-                 //"max-height: {$image_h_max}px; " .
                  "left: {$x}px; " .
                  "top: {$y}px;";
 
@@ -108,13 +109,12 @@ function template_pagination()
   }
 
   $link_array = array(
-    'prev_text' => "&larr; Previous",
-    'next_text' => "Next &rarr;",
     'base' => trailingslashit($link_no_query) . '%_%',
     'format' => $permalinks? user_trailingslashit('page/%#%', 'paged') : '?paged=%#%',
     'total' => $total,
     'current' => $current,
-    'mid_size' => 1,
+    'mid_size' => 100,
+    'prev_next' => true
   );
 
   include "partial/pagination.php";

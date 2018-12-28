@@ -5,31 +5,46 @@
   License: BSD License, see LICENSE file for more details
   www.atanaslaskov.com
 */ ?>
-<h1 id="engine">Laskov / Gamedev</h1>
+
+<header class="sketchbook_post">
+<h1>Gamedev</h1>
+by <strong>Atanas Laskov</strong>
+</header>
 
 <p>
-  Explore the <a href="http://www.github.com/latanas/arena/" target="_blank">Code</a>
-  and <a href="http://www.atanaslaskov.com/arena/" target="_blank">Play Arena</a>.<br/>
-  I wrote a game in TypeScript. It runs in the browser (Chrome, Edge, Firefox).
+  Currently, I'm programming autonomous vehicles in C++.
 </p>
+<p>
+  Previously, I wrote 2 games in TypeScript, they both run in the browser:
+</p>
+
+<ul>
+    <li>
+    Explore the <a href="http://www.github.com/latanas/golden/" target="_blank">code</a>
+    and <a href="http://www.atanaslaskov.com/golden/" target="_blank">play Golden</a><br/>
+  </li>
+
+  <li>
+  Explore the <a href="http://www.github.com/latanas/arena/" target="_blank">code</a>
+    and <a href="http://www.atanaslaskov.com/arena/" target="_blank">play Arena</a><br/>
+  </li>
+</ul>
 
 <p class="illustration_block" >
   <?php
   $folder="screens";
-  template_illustration("Laskov_arena.jpg", 56,97, 0);
+  template_illustration("Laskov_golden_a.png", 82,40, 0);
+
+  $folder="color";
+  template_illustration("GoldenDragonApple_1100.png", 70,29,0);
   ?>
 </p>
 
 <p>
-  I'm also working on another browser game. Explore the <a href="http://www.github.com/latanas/golden/" target="_blank">Code</a>
-  and <a href="http://www.atanaslaskov.com/golden/" target="_blank">Play Golden</a>.<br/>
-</p>
-
-<p>
-  I programmed a C++ game engine with OpenGL graphics.<br/>
-  Full <a href="http://www.atanaslaskov.com/jnr/" target="_blank">Docs and Source Code</a>
-  (short docs at the end of this page).<br/>
-  The animation, environment design and 3D modeling are my own work.
+  I also programmed a C++ game engine with OpenGL graphics with
+  full <a href="http://www.atanaslaskov.com/jnr/" target="_blank">Docs and Source Code</a>.<br/>
+  Short docs are available at the end of this page.
+  The animation, environment design and 3D modeling are my own work.<br/>
 </p>
 
 <p>

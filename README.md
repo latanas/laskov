@@ -1,1 +1,1 @@
-WordPress theme for my portfolio site
+WordPress theme for my portfolio site.

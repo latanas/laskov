@@ -1,6 +1,6 @@
 <?php /*
   Project: Portfolio site
-  Copyright (c) 2016 Atanas Laskov
+  Copyright (c) 2023 Atanas Laskov
 
   License: BSD License, see LICENSE file for more details
   www.atanaslaskov.com

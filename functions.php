@@ -1,6 +1,6 @@
 <?php /*
   Project: Portfolio site
-  Copyright (c) 2014 Atanas Laskov
+  Copyright (c) 2023 Atanas Laskov
 
   License: BSD License, see LICENSE file for more details
   www.atanaslaskov.com
@@ -76,12 +76,7 @@ function template_illustration($file, $view_x, $view_y, $spacing_y = 20, $giffer
                  "left: {$x}px; " .
                  "top: {$y}px;";
 
-  if( $giffer) {
-    include "partial/picture_giffer.php";
-  }
-  else {
-     include "partial/picture.php";
-  }
+  include "partial/picture.php";
 }
 
 function template_snippet($title, $document_name, $expanded=false)

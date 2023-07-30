@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 
-  <!-- Copyright (c) 2016, Atanas Laskov -->
+  <!-- Copyright (c) 2023 Atanas Laskov -->
 
   <meta charset="UTF-8">
   <title>Atanas Laskov</title>

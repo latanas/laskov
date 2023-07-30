@@ -1,3 +1,11 @@
+<?php /*
+  Project: Portfolio site
+  Copyright (c) 2023 Atanas Laskov
+
+  License: BSD License, see LICENSE file for more details
+  www.atanaslaskov.com
+*/ ?>
+
 <?php if( true /*!is_front_page()*/  ) { ?>
 <div id="mc_embed_signup">
 

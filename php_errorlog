@@ -1,0 +1,14 @@
+[07-Jul-2016 21:58:51 Europe/Sofia] PHP Fatal error:  Call to undefined function add_action() in /home/laskovco/public_html/wp-content/themes/laskov/functions.php on line 135
+[03-Aug-2016 19:28:36 Europe/Sofia] PHP Fatal error:  Call to undefined function add_action() in /home/laskovco/public_html/wp-content/themes/laskov/functions.php on line 135
+[06-Aug-2016 02:36:00 Europe/Sofia] PHP Fatal error:  Call to undefined function add_action() in /home/laskovco/public_html/wp-content/themes/laskov/functions.php on line 135
+[06-Aug-2016 06:43:12 Europe/Sofia] PHP Fatal error:  Call to undefined function add_action() in /home/laskovco/public_html/wp-content/themes/laskov/functions.php on line 135
+[06-Aug-2016 09:09:21 Europe/Sofia] PHP Fatal error:  Call to undefined function add_action() in /home/laskovco/public_html/wp-content/themes/laskov/functions.php on line 135
+[06-Aug-2016 10:45:03 Europe/Sofia] PHP Fatal error:  Call to undefined function add_action() in /home/laskovco/public_html/wp-content/themes/laskov/functions.php on line 135
+[09-Aug-2016 23:37:29 Europe/Sofia] PHP Fatal error:  Call to undefined function add_action() in /home/laskovco/public_html/wp-content/themes/laskov/functions.php on line 135
+[10-Aug-2016 16:11:24 Europe/Sofia] PHP Fatal error:  Call to undefined function add_action() in /home/laskovco/public_html/wp-content/themes/laskov/functions.php on line 135
+[10-Aug-2016 21:25:05 Europe/Sofia] PHP Fatal error:  Call to undefined function add_action() in /home/laskovco/public_html/wp-content/themes/laskov/functions.php on line 135
+[11-Aug-2016 13:58:43 Europe/Sofia] PHP Fatal error:  Call to undefined function add_action() in /home/laskovco/public_html/wp-content/themes/laskov/functions.php on line 135
+[23-Oct-2017 18:33:45 Europe/Sofia] PHP Fatal error:  Call to undefined function wp_deregister_script() in /home/laskovco/public_html/wp-content/themes/laskov/scripts.php on line 2
+[29-Mar-2018 07:25:57 Europe/Sofia] PHP Fatal error:  Call to undefined function wp_deregister_script() in /home/laskovco/public_html/wp-content/themes/laskov/scripts.php on line 2
+[30-Apr-2018 18:55:43 Europe/Sofia] PHP Fatal error:  Call to undefined function wp_deregister_script() in /home/laskovco/public_html/wp-content/themes/laskov/scripts.php on line 2
+[24-May-2018 09:46:38 Europe/Sofia] PHP Fatal error:  Call to undefined function wp_deregister_script() in /home/laskovco/public_html/wp-content/themes/laskov/scripts.php on line 2

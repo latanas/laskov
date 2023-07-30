@@ -6,5 +6,5 @@
   www.atanaslaskov.com
 */ ?>
 <div class="paging-navigation" >
-  <?= paginate_links($link_array); ?>
+	<?= paginate_links($link_array); ?>
 </div>

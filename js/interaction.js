@@ -70,7 +70,7 @@ interaction.openIllustrationShutter = function( dom_obj, e ) {
     self.img_left = parseInt(os_img.css('left').replace("px", ""));
   }
 
-  var aw = $("main").width();
+  var aw = $("main").width() - 20;
   var ah = self.img_h * (aw/self.img_w);
 
   var miny = $("main").offset().top-7;
@@ -164,7 +164,9 @@ interaction.openIllustrationShutter = function( dom_obj, e ) {
               self.closeIllustrationShutter(e);
             });
             v_dom.play();
-            self.video.fadeIn("slow");
+            self.video.fadeIn("fast", function(){
+               v_dom.play();
+            });
           };
 
           // Play it when data is preloaded

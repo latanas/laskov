@@ -11,7 +11,7 @@
   </span>
 </a>
 
-<video width="1" height="1" preload="auto" id="poster_<?= $id ?>_video" >
+<video width="1" height="1" preload="auto" id="poster_<?= $id ?>_video" playsinline >
   <source src="<?= $video_source_mp4 ?>" />
-  <source src="<?= $video_source_webm ?>" />
+  <!--<source src="<?= $video_source_webm ?>" />-->
 </video>

@@ -9,10 +9,43 @@
 
 <p>
   <a class="footer_link" href="https://www.linkedIn.com/in/atanas-laskov/" target="_blank" rel="nofollow">
-    <span class="glyph">LinkedIn.</span>
+    <span class="glyph">LinkedIn</span>
   </a>
+
+  <a class="footer_link" href="https://github.com/latanas" target="_blank" rel="nofollow">
+    <span class="glyph">GitHub</span>
+  </a>
+
+  <a class="footer_link" href="https://mastodon.social/@laskov" target="_blank" rel="nofollow">
+    <span class="glyph">Mastodon</span>
+  </a>
+
   <a class="footer_link" href="https://www.instagram.com/atanaslaskov/" target="_blank" rel="nofollow">
-    <span class="glyph">Instagram.</span>
+    <span class="glyph">Instagram</span>
   </a>
+
+  <a class="footer_link" href="https://www.threads.net/@atanaslaskov" target="_blank" rel="nofollow">
+    <span class="glyph">Threads</span>
+  </a>
+
+  <a class="footer_link" href="https://www.artstation.com/laskov" target="_blank" rel="nofollow">
+    <span class="glyph">ArtStation</span>
+  </a>
+
+  <a class="footer_link" href="https://www.behance.net/latanas" target="_blank" rel="nofollow">
+    <span class="glyph">Behance</span>
+  </a>
+
+  <a class="footer_link" href="https://vimeo.com/laskov" target="_blank" rel="nofollow">
+    <span class="glyph">Vimeo</span>
+  </a>
+
+  <a class="footer_link" href="https://www.youtube.com/c/AtanasLaskov" target="_blank" rel="nofollow">
+    <span class="glyph">YouTube</span>
+  </a>
+
+  <!--<a class="footer_link" href="https://atanas-laskov.pixels.com/" target="_blank" rel="nofollow">
+    <span class="glyph">Art Prints</span>
+  </a>-->
 
 </p>

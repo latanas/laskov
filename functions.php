@@ -16,13 +16,16 @@ function get_template_path() {
 
 function get_template_name() {
   if( is_front_page() ) {
-    return "illustration";
+	  return "sketchbook";//"illustration";
+  }
+  else if( is_page("illustration") ) {
+	  return "illustration";
   }
   else if( is_page("essays") ) {
-    return "essays";
+	  return "essays";
   }
   else if( is_page("gamedev") ) {
-    return "gamedev";
+	  return "gamedev";
   }
   return "sketchbook";
 }
@@ -41,16 +44,20 @@ function template_video_poster($poster, $video, $video_webm, $poster_zoom) {
   $id++;
 }
 
-function template_illustration($file, $view_x, $view_y, $spacing_y = 20)
+function template_illustration($file, $view_x, $view_y, $spacing_y = 20, $giffer = false)
 {
   global $folder;
 
   $image_path = "/asset/illustration/{$folder}/{$file}";
-  $image_url = get_template_path().$image_path;
-  $image_size = getimagesize( get_template_directory_uri() . $image_path );
 
+  $template     = get_template();
+  $theme_root   = get_theme_root( $template );
+  $template_dir = "$theme_root/$template";
+
+  $image_size = getimagesize( $template_dir . $image_path );
   $image_w_max = $image_size[0];
   $image_h_max = $image_size[1];
+
   $image_aspect = $image_w_max / $image_h_max;
 
   $image_w = 700;
@@ -60,12 +67,21 @@ function template_illustration($file, $view_x, $view_y, $spacing_y = 20)
   $x = (-1)*($image_w - $view_size) * ( $view_x/100.0 );
   $y = (-1)*($image_h - $view_size) * ( $view_y/100.0 );
 
+  $image_url = get_template_path().$image_path;
+
   $image_style = "width: {$image_w}px; " .
                  "height: {$image_h}px; " .
+                 //"max-width: {$image_w_max}px; " .
+                 //"max-height: {$image_h_max}px; " .
                  "left: {$x}px; " .
                  "top: {$y}px;";
 
-  include "partial/picture.php";
+  if( $giffer) {
+    include "partial/picture_giffer.php";
+  }
+  else {
+     include "partial/picture.php";
+  }
 }
 
 function template_snippet($title, $document_name, $expanded=false)
@@ -109,12 +125,14 @@ function template_pagination()
   }
 
   $link_array = array(
+    //'prev_text' => "&larr; Previous",
+    //	'next_text' => "Next &rarr;",
     'base' => trailingslashit($link_no_query) . '%_%',
     'format' => $permalinks? user_trailingslashit('page/%#%', 'paged') : '?paged=%#%',
     'total' => $total,
     'current' => $current,
     'mid_size' => 100,
-    'prev_next' => true
+	'prev_next' => true
   );
 
   include "partial/pagination.php";

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 
-  <!-- Copyright (c) 2018, Atanas Laskov -->
+  <!-- Copyright (c) 2016, Atanas Laskov -->
 
   <meta charset="UTF-8">
   <title>Atanas Laskov</title>
@@ -11,8 +11,14 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon_16x16.png">
   <?php wp_head(); ?>
 
+
+<meta name="p:domain_verify" content="b0c5fe8199a57653e492993f2d2a4f27"/>
+<link rel="alternate" hreflang="en-US" href="https://www.atanaslaskov.com/<?php echo $wp_query->queried_object->post_name; ?>" />
+<link rel="alternate" hreflang="en-GB" href="https://www.laskov.co.uk/<?php echo $wp_query->queried_object->post_name; ?>" />
+
 </head><body>
 
   <?php include "content.php"; ?>
   <?php wp_footer(); ?>
+  <div id="amzn-assoc-ad-8ac0013e-8ba9-4555-89c9-1dcf2636f4bf"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=8ac0013e-8ba9-4555-89c9-1dcf2636f4bf"></script>
 </body></html>

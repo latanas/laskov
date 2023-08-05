@@ -6,3 +6,5 @@ js/lib/
 partial/analytics.php
 .sass-cache/
 php_errorlog
+style.css
+style.css.map

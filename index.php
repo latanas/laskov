@@ -13,8 +13,8 @@
 
 
 <meta name="p:domain_verify" content="b0c5fe8199a57653e492993f2d2a4f27"/>
-<link rel="alternate" hreflang="en-US" href="https://www.atanaslaskov.com/<?php echo $wp_query->queried_object->post_name; ?>" />
-<link rel="alternate" hreflang="en-GB" href="https://www.laskov.co.uk/<?php echo $wp_query->queried_object->post_name; ?>" />
+<link rel="alternate" hreflang="en-US" href="https://www.atanaslaskov.com/<?php if($wp_query->queried_object) { echo $wp_query->queried_object->post_name; } ?>" />
+<link rel="alternate" hreflang="en-GB" href="https://www.laskov.co.uk/<?php if($wp_query->queried_object) { echo $wp_query->queried_object->post_name; } ?>" />
 
 </head><body>
 

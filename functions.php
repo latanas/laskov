@@ -145,4 +145,4 @@ function analytics_action() {
     include get_template_directory()."/partial/analytics.php";
   }
 }
-add_action( 'wp_footer', 'analytics_action' );
+add_action( 'wp_head', 'analytics_action' );

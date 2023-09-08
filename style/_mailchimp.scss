@@ -1,0 +1,59 @@
+/*
+Theme Name: Atanas
+Theme URI: http://www.atanaslaskov.com/
+Author URI: http://www.atanaslaskov.com/
+
+Author: Atanas Laskov
+Copyright (c) 2023 Atanas Laskov
+License: BSD License, see LICENSE file for more details
+
+Description: Portfolio
+Version: 1
+Text Domain: laskov
+*/
+
+/* 
+    Mailchimp form styles
+*/
+
+#mc_embed_signup {
+    display:block;
+    width: 90%;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#mc_embed_signup .book_copy {
+    font-size: 18px;
+    text-align: justify;
+}
+#mc_embed_signup form {
+    display:block;
+    padding: 20px;
+    /*background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;*/
+
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+    /*border-style: solid;
+    border-width: 10px;
+    border-color: #dbddc4;*/
+}
+
+#mc_embed_signup {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 90%;
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+}
+
+#mc_embed_signup input {
+ width: 20%;   
+}
+

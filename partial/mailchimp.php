@@ -65,8 +65,9 @@
 
 <label for="mce-EMAIL">&nbsp; E-mail:</label>
 <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your e-mail" required>
-
+&nbsp;&nbsp;
 <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+
 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b1947e9a8a656d53af2c782e3_b436413781" tabindex="-1" value=""></div>
 
 	

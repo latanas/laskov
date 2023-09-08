@@ -458,6 +458,7 @@ video {
 .content_area#template_sketchbook header {
     margin: 0px;
     padding: 0px;
+    margin-left: -80px;
     margin-top: 60px;
     margin-bottom: 30px;
     padding-left: 3%;
@@ -639,7 +640,7 @@ body {
         margin-bottom: 30px;
         padding-left: 3%;
         border-left: 1px solid #a7b97d;
-        margin-left: 40px;
+        margin-left: 0px;
     }
     .content_area {
         border-left: none;

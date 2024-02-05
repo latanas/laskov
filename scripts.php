@@ -8,7 +8,7 @@ wp_enqueue_script("main", get_template_directory_uri()."/js/main.js", array("jqu
 /*wp_enqueue_script("gumroad", "https://gumroad.com/js/gumroad.js");*/
 
 wp_enqueue_style("archivo_narrow", "https://fonts.googleapis.com/css?family=Roboto+Slab");
-wp_enqueue_style("style", get_template_directory_uri()."/style.css", array(), "5.9");
+wp_enqueue_style("style", get_template_directory_uri()."/style.css", array(), "6.0");
 
 wp_oembed_add_provider( '#https?://sketchfab\.com/.*#i', 'https://www.sketchfab.com/oembed', true );
 

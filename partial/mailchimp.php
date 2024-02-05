@@ -20,39 +20,34 @@
 <br/>
 <br/>
 
-  <a href="https://www.linkedIn.com/in/atanas-laskov/" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-LinkedIn.png" ?>" style="width: 16px; height: 16px;" /></a>
+  <a href="https://www.linkedIn.com/in/atanas-laskov/" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-LinkedIn.png" ?>" title="LinkedIn" style="width: 16px; height: 16px;" /></a>
   &nbsp;
 
-  <a href="https://github.com/latanas" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-GitHub.png" ?>" style="width: 16px; height: 16px;" /></a>
+  <a href="https://github.com/latanas" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-GitHub.png" ?>" title="GitHub" style="width: 16px; height: 16px;" /></a>
   &nbsp;
 
-  <a href="https://mastodon.social/@laskov" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-Mastodon.png" ?>" style="width: 16px; height: 16px;" /></a>
+  <a href="https://mastodon.social/@laskov" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-Mastodon.png" ?>" title="Mastodon" style="width: 16px; height: 16px;" /></a>
   &nbsp;
 
-  <a href="https://www.instagram.com/atanaslaskov/" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-Instagram.png" ?>" style="width: 16px; height: 16px;" /></a>
+  <a href="https://www.goodreads.com/laskov" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-Goodreads.png" ?>" title="Goodreads" style="width: 16px; height: 16px;" /></a>
   &nbsp;
 
-  <!--<a href="https://www.threads.net/@atanaslaskov" target="_blank" rel="nofollow">
-    <img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-Threads.png" ?>" style="width: 16px; height: 16px; vertical-align: middle;" />
-    <span class="glyph">Threads</span>
-  </a> &nbsp;-->
-
-  <a href="https://www.artstation.com/laskov" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-ArtStation.png" ?>" style="width: 16px; height: 16px;" /></a>
+  <a href="https://www.instagram.com/atanaslaskov/" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-Instagram.png" ?>" title="Instagram" style="width: 16px; height: 16px;" /></a>
   &nbsp;
 
-  <a href="https://www.behance.net/latanas" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-Behance.png" ?>" style="width: 16px; height: 16px;" /></a>
+  <a href="https://www.artstation.com/laskov" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-ArtStation.png" ?>" title="ArtStation" style="width: 16px; height: 16px;" /></a>
   &nbsp;
 
-  <a href="https://vimeo.com/laskov" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-Vimeo.png" ?>" style="width: 16px; height: 16px;" /></a>
+  <a href="https://www.behance.net/latanas" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-Behance.png" ?>" title="Behance" style="width: 16px; height: 16px;" /></a>
   &nbsp;
 
-  <a href="https://www.youtube.com/c/AtanasLaskov" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-YouTube.png" ?>" style="width: 16px; height: 16px;" /></a>
+  <a href="https://www.youtube.com/c/AtanasLaskov" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-YouTube.png" ?>" title="YouTube" style="width: 16px; height: 16px;" /></a>
   &nbsp;
 
-  <!--<a href="https://atanas-laskov.pixels.com/" target="_blank" rel="nofollow">
-    <img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-LinkedIn.png" ?>" style="width: 16px; height: 16px; vertical-align: middle;" />
-    <span class="glyph">Art Prints</span>
-  </a>-->
+  <!--<a href="https://vimeo.com/laskov" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-Vimeo.png" ?>" title="Vimeo" style="width: 16px; height: 16px;" /></a>
+  &nbsp;-->
+
+  <a href="https://www.figma.com/@laskov" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-Figma.png" ?>" title="Figma" style="width: 16px; height: 16px;" /></a>
 
 <br/>
 <br/>

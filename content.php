@@ -23,8 +23,8 @@
       if(is_front_page()) {
         $template_name = "portfolio";
       }
-      else if(is_page("fine-art")) {
-        $template_name = "fine_art";
+      else if(is_page("illustrations")) {
+        $template_name = "illustrations";
       }
 
     ?>

@@ -321,22 +321,26 @@ a.illustration_outer span img {
 
 a.illustration_outer p.close {
     display: inline-block;
-    position: fixed;
+    position: absolute;
     z-index: 999;
-    bottom: 50px;
-    left: 50px;
+
+    top: -15px;
+    right: 0px;
     width: 100px;
     height: 25px;
+
     padding: 10px;
-    border-radius: 6px;
+    border-bottom-left-radius: 60px;
+
     font-weight: bold;
     text-align: center;
-    color: #a7b97d;
-    background-color: rgba(255,255,255,0.9);
-    box-shadow: 0 0 6px 6px rgba(205,211,132,0.3);
+
+    background-color: #b8cd87;
+    color: white;
+    /*box-shadow: 0 0 6px 6px rgba(205,211,132,0.3);*/
 }
 a.illustration_outer p.close::before {
-    content: '[x] ';
+    content: '✖ ';
 }
 
 .shutter {

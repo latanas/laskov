@@ -24,10 +24,6 @@
     <span class="glyph">Instagram</span>
   </a>
 
-  <a class="footer_link" href="https://www.threads.net/@atanaslaskov" target="_blank" rel="nofollow">
-    <span class="glyph">Threads</span>
-  </a>
-
   <a class="footer_link" href="https://www.artstation.com/laskov" target="_blank" rel="nofollow">
     <span class="glyph">ArtStation</span>
   </a>
@@ -44,8 +40,8 @@
     <span class="glyph">YouTube</span>
   </a>
 
-  <!--<a class="footer_link" href="https://atanas-laskov.pixels.com/" target="_blank" rel="nofollow">
-    <span class="glyph">Art Prints</span>
-  </a>-->
+  <a class="footer_link" href="https://www.figma.com/@laskov" target="_blank" rel="nofollow">
+    <span class="glyph">Figma</span>
+  </a>
 
 </p>

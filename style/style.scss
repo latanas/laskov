@@ -339,9 +339,6 @@ a.illustration_outer p.close {
     color: white;
     /*box-shadow: 0 0 6px 6px rgba(205,211,132,0.3);*/
 }
-a.illustration_outer p.close::before {
-    content: '✖ ';
-}
 
 .shutter {
     display: none;

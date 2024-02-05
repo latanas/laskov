@@ -201,7 +201,7 @@ interaction.openIllustrationShutter = function( dom_obj, e ) {
         $(".shutter").html('<div style="position: relative; top: '+msg_at+'px; left: 300px; width: 120px;">(click to return)</div>');
       }
       else {
-        os.append('<p class="close">Close</p>');
+        os.append('<p class="close">X Close</p>');
       }
 
     });

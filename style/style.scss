@@ -623,18 +623,8 @@ body {
 }
 
 html {
-    background-color: #c3c399;
-}
-
-body {
-    font-size: 16px;
-    line-height: 26px;
-    font-family: Arial, sans-serif;
-    color: #555;
-    /*background: fixed url(asset/image/bg1.jpg) -5px 0px repeat-x, fixed url(asset/image/grass.gif) 0px 0px repeat;*/
-
     --s: 60px;
-    --c1: #c3c399;
+    --c1: #b8b892;
     --c2: #9f9f7d;
   
     --_g: 
@@ -648,6 +638,16 @@ body {
       radial-gradient(50% 50%,var(--_g)) calc(var(--s)/2) calc(var(--s)/2)
       var(--c1);
     background-size: var(--s) var(--s);
+}
+
+body {
+    font-size: 16px;
+    line-height: 26px;
+    font-family: Arial, sans-serif;
+    color: #555;
+    /*background: fixed url(asset/image/bg1.jpg) -5px 0px repeat-x, fixed url(asset/image/grass.gif) 0px 0px repeat;*/
+
+    
 }
 
 /*

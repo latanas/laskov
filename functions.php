@@ -102,7 +102,7 @@ function template_snippet($title, $document_name, $expanded=false)
   $id++;
 }
 
-function template_pagination()
+function template_pagination($page_num = 100, $pagi_style = "")
 {
   if( $GLOBALS['wp_query']->max_num_pages <= 1 ) {
     return;
@@ -126,7 +126,7 @@ function template_pagination()
     'format' => $permalinks? user_trailingslashit('page/%#%', 'paged') : '?paged=%#%',
     'total' => $total,
     'current' => $current,
-    'mid_size' => 100,
+    'mid_size' => $page_num,
 	'prev_next' => true
   );
 

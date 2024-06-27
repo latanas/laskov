@@ -12,28 +12,31 @@ by <strong>Atanas Laskov</strong>
 </header>
 
 <p>Hi there, my name is Atanas Laskov.
-My professional work experience includes TypeScript, JavaScript, Java and <a href="#engine">C++</a> programming. 
-I studied Computer Systems &amp Technologies at Technical University Sofia. After that I went on to study Artificial Intelligence at Edinburgh University, graduating with Distinction.
-Further, I studied Computer Arts at Abertay University.
+My professional work experience includes TypeScript, JavaScript, Java and C++. I studied Computer Systems at Technical University Sofia.
+After that I went on to study Artificial Intelligence at Edinburgh University, graduating with Distinction.
+Further, I studied Computer Arts at Abertay University and will graduate in July 2024 with excellent results.
 </p>
 
 <p>
-Currently, I am working on a city editor for the web:
+Currently, I'm working on a city design app:
 </p>
 
 <p>
 <ul>
    <li>
-      I'm implementing it in Angular 17, <a href="http://www.github.com/latanas/city/" target="_blank">explore the code</a> on GitHub.
+      I'm implementing the app in Angular 17, <a href="http://www.github.com/latanas/city/" target="_blank">explore the code</a> on GitHub.
    </li>
    <li>
-      You can <a href="http://www.atanaslaskov.com/city/" target="_blank">play City</a> online in the browser.
+      You can <a href="http://www.atanaslaskov.com/city/" target="_blank">play the app</a> in your web browser, with slightly older version of the UI design.
    </li>
-   <li>You can see some wireframes and sketches in the <a href="/sketchbook/">sketchbook</a>.</li>
-   <!--<p>This is a sandbox city design experience, there is no simulated economy.</p>-->
+   <li>
+     The video below shows my Figma prototype, with the latest version of the UI design.
+   </li>
+
 </ul>
 </p>
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/900335489?h=1b0d8177bd" width="550" height="300" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="550" height="400" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/nlSantuzmDs?si=2RT-c4Ednjn2pJ0k" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <h3 id="british_red_cross">Supporting the British Red Cross (UI/UX Design, Animation)</h3>
 <p>

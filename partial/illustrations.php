@@ -11,8 +11,55 @@
 by <strong>Atanas Laskov</strong>
 </header>
 
+<h3 id="gn">Graphic Novels</h3>
+<p>
+I published 3 volumes of the graphic novel "Wings of Steel". Check it out if you wanna sink your teeth into dystopian Sci-Fi with some funny bits and some horror bits.
+</p>
 
-<p>My animated work is produced in Adobe Animate, here are some examples:</p>
+<p>
+Zak is a talented engineer oppressed by the Inquisitors of the Mage Altos. What's worse, pesky acolytes Sue and Zoe don't acknowledge the boy's talent and mock his crude ways.
+A mysterious organization is spying on the engineer, and the High Priestess of Altos wants him thrown in a dungeon...
+</p>
+<p>
+You can find the graphic novel paperbacks and Kindle e-books in the Amazon store.
+</p>
+<p>
+<a class="illustration_outer_larger" href="https://www.amazon.co.uk/gp/product/1657751821" target="_blank">
+ <img src="<?= get_template_path() ?>/asset/image/Laskov_WoS_1.jpg" alt="Wings of Steel: Young-adult steampunk adventure" />
+</a>
+
+<a class="illustration_outer_larger" href="https://www.amazon.co.uk/gp/product/B08LGSDR61" target="_blank">
+ <img src="<?= get_template_path() ?>/asset/image/Laskov_WoS_2.jpg" alt="Wings of Steel: Shards of Jade" />
+</a>
+
+<a class="illustration_outer_larger" href="https://www.amazon.co.uk/gp/product/B08TWFH27S" target="_blank">
+ <img src="<?= get_template_path() ?>/asset/image/Laskov_WoS_3.jpg" alt="Wings of Steel: Dreamer of the Void" />
+</a>
+</p>
+
+
+<h3 id="anatomy">Anatomy</h3>
+<p>
+In order to draw character designs, human anatomy is an important topic for artists. For this reason, I published a pocket reference "Human Anatomy." This is intended to help artists and illustrators by giving them a "key" to use while working on graphic novels, comics, games, animation, and in other types of media projects.  Included are the proportions, head drawing, torso, upper and lower extremity. All parts of the body are covered in multiple views, allowing the artist to follow through, understanding and memorizing the anatomy. The ultimate objective is to be able to draw the human body from imagination. As a graphic novel author, I'm using this book when working on my own projects.</p>
+<p>
+<a class="illustration_outer_larger" href="https://www.amazon.co.uk/dp/B08DC84HF8" target="_blank" rel="nofollow">
+ <img src="<?= get_template_path() ?>/asset/image/Laskov_Anatomy.jpg" alt="Human Anatomy Pocket Reference for Artists" />
+</a>
+</p>
+
+<p class="illustration_block" style="padding-top:6px; text-align: left;">
+  <?php
+  $folder="color";
+
+  $folder = "bw";
+  template_illustration("laskov_master_study_009_proportions_a.jpg", 50, 8);
+  template_illustration("laskov_ultra_simplified_front_047_port.jpg", 9, 14);
+  ?>
+</p>
+
+<h3 id="anatomy">Animation</h3>
+
+<p>My animated 2D work is produced in Adobe Animate, here are some examples:</p>
 
 <p>
   <?php
@@ -173,46 +220,3 @@ I strive for creativity and technical excellence in my artwork.
 ?>
 </p>-->
 
-<h3 id="anatomy">Anatomy</h3>
-<p>
-In order to draw character designs, human anatomy is an important topic for artists. For this reason, I published a pocket reference "Human Anatomy." This is intended to help artists and illustrators by giving them a "key" to use while working on graphic novels, comics, games, animation, and in other types of media projects.  Included are the proportions, head drawing, torso, upper and lower extremity. All parts of the body are covered in multiple views, allowing the artist to follow through, understanding and memorizing the anatomy. The ultimate objective is to be able to draw the human body from imagination. As a graphic novel author, I'm using this book when working on my own projects.</p>
-<p>
-<a class="illustration_outer_larger" href="https://www.amazon.co.uk/dp/B08DC84HF8" target="_blank" rel="nofollow">
- <img src="<?= get_template_path() ?>/asset/image/Laskov_Anatomy.jpg" alt="Human Anatomy Pocket Reference for Artists" />
-</a>
-</p>
-
-<p class="illustration_block" style="padding-top:6px; text-align: left;">
-  <?php
-  $folder="color";
-
-  $folder = "bw";
-  template_illustration("laskov_master_study_009_proportions_a.jpg", 50, 8);
-  template_illustration("laskov_ultra_simplified_front_047_port.jpg", 9, 14);
-  ?>
-</p>
-
-<h3 id="gn">Graphic Novels</h3>
-<p>
-I published 3 volumes of the graphic novel "Wings of Steel". Check it out if you wanna sink your teeth into dystopian Sci-Fi with some funny bits and some horror bits.
-</p>
-
-<p>
-Zak is a talented engineer oppressed by the Inquisitors of the Mage Altos. What's worse, pesky acolytes Sue and Zoe don't acknowledge the boy's talent and mock his crude ways. A mysterious organization is spying on him from vantage point in the sky, and a powerful Priestess wants him thrown in a dungeon...
-</p>
-<p>
-You can find the graphic novel paperbacks, and Kindle e-books, in the Amazon store.
-</p>
-<p>
-<a class="illustration_outer_larger" href="https://www.amazon.co.uk/dp/B07X8FT2C8" target="_blank">
- <img src="<?= get_template_path() ?>/asset/image/Laskov_WoS_1.jpg" alt="Wings of Steel: Young-adult steampunk adventure" />
-</a>
-
-<a class="illustration_outer_larger" href="https://www.amazon.co.uk/dp/B08LTSDQNS" target="_blank">
- <img src="<?= get_template_path() ?>/asset/image/Laskov_WoS_2.jpg" alt="Wings of Steel: Shards of Jade" />
-</a>
-
-<a class="illustration_outer_larger" href="https://www.amazon.co.uk/dp/B08V8W1W8J" target="_blank">
- <img src="<?= get_template_path() ?>/asset/image/Laskov_WoS_3.jpg" alt="Wings of Steel: Dreamer of the Void" />
-</a>
-</p>

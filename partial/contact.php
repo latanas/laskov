@@ -20,16 +20,20 @@
     <span class="glyph">Mastodon</span>
   </a>
 
-  <a class="footer_link" href="https://www.instagram.com/atanaslaskov/" target="_blank" rel="nofollow">
-    <span class="glyph">Instagram</span>
+  <a class="footer_link" href="https://www.behance.net/latanas" target="_blank" rel="nofollow">
+    <span class="glyph">Behance</span>
   </a>
 
   <a class="footer_link" href="https://www.artstation.com/laskov" target="_blank" rel="nofollow">
     <span class="glyph">ArtStation</span>
   </a>
 
-  <a class="footer_link" href="https://www.behance.net/latanas" target="_blank" rel="nofollow">
-    <span class="glyph">Behance</span>
+  <a class="footer_link" href="https://www.instagram.com/atanaslaskov/" target="_blank" rel="nofollow">
+    <span class="glyph">Instagram</span>
+  </a>
+
+  <a class="footer_link" href="https://www.goodreads.com/laskov" target="_blank" rel="nofollow">
+    <span class="glyph">Goodreads</span>
   </a>
 
   <a class="footer_link" href="https://vimeo.com/laskov" target="_blank" rel="nofollow">
@@ -40,8 +44,8 @@
     <span class="glyph">YouTube</span>
   </a>
 
-  <a class="footer_link" href="https://www.figma.com/@laskov" target="_blank" rel="nofollow">
+  <!--<a class="footer_link" href="https://www.figma.com/@laskov" target="_blank" rel="nofollow">
     <span class="glyph">Figma</span>
-  </a>
+  </a>-->
 
 </p>

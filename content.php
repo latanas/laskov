@@ -15,7 +15,6 @@
   </div>
 
   <main>
-    <?php include "partial/zaks_dragonfly.php" ?>
     <?php include "partial/socials.php"; ?>
 
     <?php

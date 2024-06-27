@@ -95,8 +95,6 @@ function template_pagination($page_num = 100, $pagi_style = "")
   }
 
   $link_array = array(
-    //'prev_text' => "&larr; Previous",
-    //	'next_text' => "Next &rarr;",
     'base' => trailingslashit($link_no_query) . '%_%',
     'format' => $permalinks? user_trailingslashit('page/%#%', 'paged') : '?paged=%#%',
     'total' => $total,

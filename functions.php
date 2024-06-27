@@ -155,13 +155,27 @@ add_filter('robots_txt', function($robots_txt, $public) {
     "PiplBot", "PerplexityBot", "Scrapy", "TurnitinBot", "voltron"
   ];
 
-  $disallow_user_agents = "";
+  $robots_txt = "";
 
   foreach ($robots as $bot) {
-    $disallow_user_agents .= "User-agent: {$bot}\n";
-    $disallow_user_agents .= "Disallow: /\n\n";
+    $robots_txt .= "User-agent: {$bot}\n";
+    $robots_txt .= "Disallow: /\n\n";
   }
 
-  return $disallow_user_agents . $robots_txt;
+  $robots_txt .= "User-agent: *\n";
+  $robots_txt .= "Allow: /wp-content/themes/laskov/style.css\n";
+  $robots_txt .= "Disallow: /wp-admin/\n";
+  $robots_txt .= "Disallow: /wp-includes/\n";
+  $robots_txt .= "Disallow: /wp-content/\n";
+  $robots_txt .= "Disallow: /matomo/\n";
+  $robots_txt .= "Disallow: /wp-admin/*\n";
+  $robots_txt .= "Disallow: /wp-includes/*\n";
+  $robots_txt .= "Disallow: /wp-content/*\n";
+  $robots_txt .= "Disallow: /matomo/*\n";
+  $robots_txt .= "Allow: /\n\n";
+
+  $robots_txt .= "Sitemap: https://www.laskov.co.uk/wp-sitemap.xml\n\n";
+
+  return $robots_txt;
 
 }, 10, 2);

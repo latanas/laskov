@@ -133,7 +133,7 @@ function template_pagination($page_num = 100, $pagi_style = "")
   include "partial/pagination.php";
 }
 
-function analytics_action() {
+add_action( 'wp_head', function() {
   if ( is_user_logged_in() ) {
     return;
   }
@@ -144,8 +144,7 @@ function analytics_action() {
   if ( file_exists(get_template_directory()."/partial/analytics.php") ) {
     include get_template_directory()."/partial/analytics.php";
   }
-}
-add_action( 'wp_head', 'analytics_action' );
+});
 
 add_filter('robots_txt', function($robots_txt) {
   $robots_txt = "";

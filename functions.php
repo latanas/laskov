@@ -71,35 +71,10 @@ function template_illustration($file, $view_x, $view_y, $spacing_y = 20, $giffer
 
   $image_style = "width: {$image_w}px; " .
                  "height: {$image_h}px; " .
-                 //"max-width: {$image_w_max}px; " .
-                 //"max-height: {$image_h_max}px; " .
                  "left: {$x}px; " .
                  "top: {$y}px;";
 
   include "partial/picture.php";
-}
-
-function template_snippet($title, $document_name, $expanded=false)
-{
-  static $id=0;
-  $source = file_get_contents( get_template_directory_uri()."/asset/document/{$document_name}" );
-
-  $template = '<span class="src_class">$1</span> <span class="src_class_name">$2</span>';
-  $source = preg_replace("/\n(class) (\w+)/", $template, $source);
-  $source = preg_replace("/(public) (\w+)/", $template, $source);
-  $source = wpautop( $source );
-
-  if( $expanded ) {
-    $expandable_text = "[-] contract";
-    $expandable_style = "";
-  }
-  else {
-    $expandable_text = '[+] expand';
-    $expandable_style = 'display: none;';
-  }
-
-  include "partial/snippet.php";
-  $id++;
 }
 
 function template_pagination($page_num = 100, $pagi_style = "")

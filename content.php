@@ -9,14 +9,14 @@
 <div class="outer_panel">
 
   <div class="small_menu">
-    <?php include "partial/portrait.php"; ?>
+    <?php include "partial/socials.php"; ?>
 	<h2>Atanas Laskov &#127987;&#65039;&#8205;&#127752;</h2>
     <?php include "partial/navigation.php"; ?>
   </div>
 
   <main>
     <?php include "partial/zaks_dragonfly.php" ?>
-    <?php include "partial/mailchimp.php"; ?>
+    <?php include "partial/socials.php"; ?>
 
     <?php
       $template_name = get_template_name();

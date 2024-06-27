@@ -146,3 +146,22 @@ function analytics_action() {
   }
 }
 add_action( 'wp_head', 'analytics_action' );
+
+add_filter('robots_txt', function($robots_txt, $public) {
+  $robots = [
+    "008", "Amazonbot", "anthropic-ai", "Applebot-Extended", "AwarioRssBot", "AwarioSmartBot", "Bytespider", "bender", 
+    "CCBot", "GPTBot", "ChatGPT-User", "ClaudeBot", "Claude-Web", "cohere-ai", "Diffbot", "Google-Extended", "Gort",
+    "MJ12bot", "magpie-crawler", "NewsNow", "news-please", "omgili", "omgilibot", "peer39_crawler", "peer39_crawler/1.0",
+    "PiplBot", "PerplexityBot", "Scrapy", "TurnitinBot", "voltron"
+  ];
+
+  $disallow_user_agents = "";
+
+  foreach ($robots as $bot) {
+    $disallow_user_agents .= "User-agent: {$bot}\n";
+    $disallow_user_agents .= "Disallow: /\n\n";
+  }
+
+  return $disallow_user_agents . $robots_txt;
+
+}, 10, 2);

@@ -147,15 +147,15 @@ function analytics_action() {
 }
 add_action( 'wp_head', 'analytics_action' );
 
-add_filter('robots_txt', function($robots_txt, $public) {
+add_filter('robots_txt', function($robots_txt) {
+  $robots_txt = "";
+
   $robots = [
     "008", "Amazonbot", "anthropic-ai", "Applebot-Extended", "AwarioRssBot", "AwarioSmartBot", "Bytespider", "bender", 
     "CCBot", "GPTBot", "ChatGPT-User", "ClaudeBot", "Claude-Web", "cohere-ai", "Diffbot", "Google-Extended", "Gort",
     "MJ12bot", "magpie-crawler", "NewsNow", "news-please", "omgili", "omgilibot", "peer39_crawler", "peer39_crawler/1.0",
     "PiplBot", "PerplexityBot", "Scrapy", "TurnitinBot", "voltron"
   ];
-
-  $robots_txt = "";
 
   foreach ($robots as $bot) {
     $robots_txt .= "User-agent: {$bot}\n";
@@ -178,4 +178,4 @@ add_filter('robots_txt', function($robots_txt, $public) {
 
   return $robots_txt;
 
-}, 10, 2);
+}, 10);

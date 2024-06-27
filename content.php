@@ -9,8 +9,8 @@
 <div class="outer_panel">
 
   <div class="small_menu">
-    <?php include "partial/socials.php"; ?>
-	<h2>Atanas Laskov &#127987;&#65039;&#8205;&#127752;</h2>
+    <?php include "partial/portrait.php"; ?>
+	  <h2>Atanas Laskov &#127987;&#65039;&#8205;&#127752;</h2>
     <?php include "partial/navigation.php"; ?>
   </div>
 

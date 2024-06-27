@@ -7,7 +7,7 @@ wp_enqueue_script("interaction", get_template_directory_uri()."/js/interaction.j
 wp_enqueue_script("main", get_template_directory_uri()."/js/main.js", array("jquery", "interaction"), "1.5");
 
 wp_enqueue_style("archivo_narrow", "https://fonts.googleapis.com/css?family=Roboto+Slab");
-wp_enqueue_style("style", get_template_directory_uri()."/style.css", array(), "6.4");
+wp_enqueue_style("style", get_template_directory_uri()."/style.css", array(), "6.5");
 
 /* Remove Gutenberg Block Library CSS from loading on the frontend, and other editor CSS that this theme doesn't use */
 add_action( 'wp_enqueue_scripts', function() {

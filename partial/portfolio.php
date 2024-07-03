@@ -14,7 +14,7 @@ by <strong>Atanas Laskov</strong>
 <p>Hi there, my name is Atanas Laskov.
 My professional work experience includes TypeScript, JavaScript, Java and C++. I studied Computer Systems at Technical University Sofia.
 After that I went on to study Artificial Intelligence at Edinburgh University, graduating with Distinction.
-Further, I studied Computer Arts at Abertay University and will graduate in July 2024 with excellent results.
+Further, I studied Computer Arts at Abertay University and graduated in July 2024 with 1<sup>st</sup> class degree.
 </p>
 
 <p>
@@ -24,13 +24,16 @@ Currently, I'm working on a city design app:
 <p>
 <ul>
    <li>
-      I'm implementing the app in Angular 17, <a href="http://www.github.com/latanas/city/" target="_blank">explore the code</a> on GitHub.
+      You can <a href="http://www.atanaslaskov.com/city/" target="_blank">test the app</a> in your web browser.
    </li>
    <li>
-      You can <a href="http://www.atanaslaskov.com/city/" target="_blank">play the app</a> in your web browser, with slightly older version of the UI design.
+      I'm implementing the client is Angular 18, expore the code on <a href="http://www.github.com/latanas/city-client/" target="_blank">GitHub</a>.
    </li>
    <li>
-     The video below shows my Figma prototype, with the latest version of the UI design.
+      The server will be a Java service, currently work in progress on <a href="http://www.github.com/latanas/city-server/" target="_blank">GitHub</a>.
+   </li>
+   <li>
+     The video below shows my Figma prototype with the latest version of the UI design.
    </li>
 
 </ul>

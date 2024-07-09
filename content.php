@@ -33,9 +33,10 @@
     </article>
 	
 	<?php
-	  if( !is_null($year_of_publishing) ) {
-		echo "<h3 class='copy'>&copy; {$year_of_publishing} Atanas Laskov</h3>";
-	  }
+	  if (is_null($year_of_publishing)) {
+        $year_of_publishing = 2024;
+      }
+      echo "<h3 class='copy'>Copyright &copy; {$year_of_publishing} Atanas Laskov. All Rights Reserved.</h3>";
 	?>
 	
 	<?php if( get_template_name() == "sketchbook") {template_pagination();} ?>

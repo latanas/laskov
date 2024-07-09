@@ -155,9 +155,11 @@ add_filter('robots_txt', function($robots_txt) {
   $robots_txt .= "Disallow: /wp-content/*\n";
   $robots_txt .= "Disallow: /matomo/*\n";
   $robots_txt .= "Allow: /\n\n";
+  
+  $robots_txt .= "Crawl-delay: 5  \n\n";
 
   $robots_txt .= "Sitemap: https://www.laskov.co.uk/wp-sitemap.xml\n\n";
-  $robots_txt .= "Crawl-delay: 5  \n\n";
+  
 
   return $robots_txt;
 

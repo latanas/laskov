@@ -125,14 +125,14 @@ add_filter('robots_txt', function($robots_txt) {
   $robots = [
     "008",
     "Amazonbot", "anthropic-ai", "Applebot-Extended", "AwarioRssBot", "AwarioSmartBot",
-    "Bytespider", "bender", 
-    "CCBot", "ChatGPT-User", "ClaudeBot", "Claude-Web", "cohere-ai",
+    "Bytespider", "bender", "Bingbot"
+    "CCBot", "ClaudeBot", "Claude-Web", "cohere-ai",
     "Diffbot", "Discordbot",
     "FacebookBot", "facebookexternalhit",
-    "Google-Extended", "GoogleOther-Image", "Gort", "GPTBot",
+    "Google-Extended", "GoogleOther-Image", "Gort", "GPTBot", "ChatGPT-User", 
     "MJ12bot", "magpie-crawler",
     "NewsNow", "news-please",
-    "omgili", "omgilibot",
+    "omgili", "omgilibot", "OpenAI",
     "peer39_crawler", "peer39_crawler/1.0", "PiplBot", "PerplexityBot",
     "Scrapy",
     "TurnitinBot",

@@ -19,23 +19,23 @@ Further, I studied Computer Arts at Abertay University and graduated in July 202
 
 <p>
 While I studied the mathematical foundations of artifical inteligence, I've never used generative AI for artwork.
-Back in my day, scientists used carefully curated data-sets to train neural networks for image classification and spam filtering.
+I did multi-agent systems, nature-inspired and genetic algorithms, optimization, reinforcement learning, natural language processing.
+Back in my day, scientists used carefully curated data-sets to train neural networks for spam filtering and image classification.
+<p>
+
+<p>
 Nowadays, in effort to get the maximal amount of data, commercial corporations have decided to ignore the copyright of artists.
-<p>
-
-<p>
-Tools like <a target="blank" rel="nofollow" href="https://arstechnica.com/tech-policy/2024/07/glaze-a-tool-protecting-artists-from-ai-bypassed-by-attack-as-demand-spikes/">Glaze and Poison</a>
+Tools like <a target="_blank" rel="nofollow" href="https://arstechnica.com/tech-policy/2024/07/glaze-a-tool-protecting-artists-from-ai-bypassed-by-attack-as-demand-spikes/">Glaze and Poison</a>
 have emerged to allow the artist to take back some control.
-Always use the latest versions of these tools, because they need to be updated constantly to keep up with new data models.
+Use the latest versions of these tools, because they need to be updated constantly to keep up with new data models.
 Limit how much artwork you post on social media owned by big tech, and always delete your old data.
-By law corportations are not allowed to keep your deleted artwork, so even if they have used it to train current models, deleted images will not be available for them in the future.
-</p>
-
-<p>
-It has recently been suggested by <a target="blank" rel="nofollow" href="https://www.theregister.com/2024/06/28/microsoft_ceo_ai/">Microsoft</a> that anything posted on the internet is "freeware".
+By law corportations are not allowed to keep your deleted artwork, so even if they have used it to train current models, deleted images will not be available for them in future models.
+Meta allows to <a target="_blank" rel="nofollow" href="https://www.technologyreview.com/2024/06/14/1093789/how-to-opt-out-of-meta-ai-training/">opt-out</a> of their training process, but only for EU and UK citizens.
+It has recently been suggested by <a target="_blank" rel="nofollow" href="https://www.theregister.com/2024/06/28/microsoft_ceo_ai/">Microsoft</a> that anything posted on the internet is "freeware".
 It is important to have copyright notice and artist signature on all your images, because this will communicate your intention is to retain copyright.
 </p>
 
+<h3 id="city">City Design App</h3>
 <p>
 Currently, I'm working on a city design app:
 </p>

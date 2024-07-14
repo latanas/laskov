@@ -23,7 +23,7 @@ I did multi-agent systems, nature-inspired and genetic algorithms, optimization,
 <p>
 
 <p>
-Nowadays, in effort to get the maximal amount of data, commercial corporations have decided to ignore the copyright of artists.
+Nowadays, in effort to get the maximal amount of data, some corporations have decided to ignore the copyright of artists.
 Tools like <a target="_blank" rel="nofollow" href="https://arstechnica.com/tech-policy/2024/07/glaze-a-tool-protecting-artists-from-ai-bypassed-by-attack-as-demand-spikes/">Glaze and Poison</a>
 have emerged to allow the artist to take back some control.
 Use the latest versions of these tools, because they need to be updated constantly to keep up with new data models.

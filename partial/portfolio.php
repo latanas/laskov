@@ -25,8 +25,8 @@ I did multi-agent systems, nature-inspired and genetic algorithms, optimization,
 <p>
 Nowadays, in effort to get the maximal amount of data, some corporations have decided to ignore the copyright of artists.
 Tools like <a target="_blank" rel="nofollow" href="https://arstechnica.com/tech-policy/2024/07/glaze-a-tool-protecting-artists-from-ai-bypassed-by-attack-as-demand-spikes/">Glaze and Poison</a>
-have emerged to allow the artist to take back some control.
-Use the latest versions of these tools, because they need to be updated constantly to keep up with new data models.
+have emerged to allow the artist to take back control.
+Use the latest versions of these tools, because they need to be updated constantly to keep up with new learning algorithms.
 Limit how much artwork you post on social media owned by big tech, and always delete your old data.
 By law corportations are not allowed to keep your deleted artwork, so even if they have used it to train current models, deleted images will not be available for them in future models.
 Meta allows to <a target="_blank" rel="nofollow" href="https://www.technologyreview.com/2024/06/14/1093789/how-to-opt-out-of-meta-ai-training/">opt-out</a> of their training process, but only for EU and UK citizens.

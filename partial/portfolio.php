@@ -20,7 +20,6 @@ Further, I studied Computer Arts at Abertay University and graduated in July 202
 <p>
 While I studied the mathematical foundations of artifical inteligence, I've never used generative AI for artwork.
 I did multi-agent systems, nature-inspired and genetic algorithms, optimization, reinforcement learning, natural language processing.
-Back in my day, scientists used carefully curated data-sets to train neural networks for spam filtering and image classification.
 <p>
 
 <p>
@@ -32,7 +31,7 @@ Limit how much artwork you post on social media owned by big tech, and always de
 By law corportations are not allowed to keep your deleted artwork, so even if they have used it to train current models, deleted images will not be available for them in future models.
 Meta allows to <a target="_blank" rel="nofollow" href="https://www.technologyreview.com/2024/06/14/1093789/how-to-opt-out-of-meta-ai-training/">opt-out</a> of their training process, but only for EU and UK citizens.
 It has recently been suggested by <a target="_blank" rel="nofollow" href="https://www.theregister.com/2024/06/28/microsoft_ceo_ai/">Microsoft</a> that anything posted on the internet is "freeware".
-It is important to have copyright notice and artist signature on all your images, because this will communicate your intention is to retain copyright.
+Always put copyright notice and artist signature on your images, because this will communicate your intention is to retain copyright.
 </p>
 
 <h3 id="city">City Design App</h3>

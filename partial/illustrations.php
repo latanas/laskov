@@ -24,15 +24,15 @@ A mysterious organization is spying on the engineer, and the High Priestess of A
 You can find the graphic novel paperbacks and Kindle e-books in the Amazon store.
 </p>
 <p>
-<a class="illustration_outer_larger" href="https://www.amazon.co.uk/gp/product/1657751821" target="_blank">
+<a class="illustration_outer_larger" href="https://www.amazon.co.uk/dp/B07X8FT2C8" target="_blank">
  <img src="<?= get_template_path() ?>/asset/image/Laskov_WoS_1.jpg" alt="Wings of Steel: Young-adult steampunk adventure" />
 </a>
 
-<a class="illustration_outer_larger" href="https://www.amazon.co.uk/gp/product/B08LGSDR61" target="_blank">
+<a class="illustration_outer_larger" href="https://www.amazon.co.uk/dp/B08LTSDQNS" target="_blank">
  <img src="<?= get_template_path() ?>/asset/image/Laskov_WoS_2.jpg" alt="Wings of Steel: Shards of Jade" />
 </a>
 
-<a class="illustration_outer_larger" href="https://www.amazon.co.uk/gp/product/B08TWFH27S" target="_blank">
+<a class="illustration_outer_larger" href="https://www.amazon.co.uk/dp/B08V8W1W8J" target="_blank">
  <img src="<?= get_template_path() ?>/asset/image/Laskov_WoS_3.jpg" alt="Wings of Steel: Dreamer of the Void" />
 </a>
 </p>

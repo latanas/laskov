@@ -125,7 +125,7 @@ add_filter('robots_txt', function($robots_txt) {
   $robots = [
     "008",
     "Amazonbot", "anthropic-ai", "Applebot-Extended", "AwarioRssBot", "AwarioSmartBot",
-    "Bytespider", "bender", "Bingbot",
+    "Bytespider", "bender",
     "CCBot", "ClaudeBot", "Claude-Web", "cohere-ai",
     "Diffbot", "Discordbot",
     "FacebookBot", "facebookexternalhit",

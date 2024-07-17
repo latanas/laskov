@@ -13,15 +13,16 @@ by <strong>Atanas Laskov</strong>
 
 <h3 id="gn">Graphic Novels</h3>
 <p>
-I published 3 volumes of the graphic novel "Wings of Steel". Check it out if you wanna sink your teeth into dystopian Sci-Fi with some funny bits and some horror bits.
+I published 3 volumes of the graphic novel "Wings of Steel". This is a complete fantasy story with 125 manga illustractions.
 </p>
 
 <p>
-Zak is a talented engineer oppressed by the Inquisitors of the Mage Altos. What's worse, pesky acolytes Sue and Zoe don't acknowledge the boy's talent and mock his crude ways.
-A mysterious organization is spying on the engineer, and the High Priestess of Altos wants him thrown in a dungeon...
+Zak is a talented engineer oppressed by the Inquisitors of Altos. Pesky acolytes Sue and Zoe don't acknowledge the boy's talent and mock his crude ways, while Priestess Lerian wants him thrown in a dungeon.
+A mysterious organization is spying on the engineer from vantage point in the sky...
 </p>
 <p>
-You can find the graphic novel paperbacks and Kindle e-books in the Amazon store.
+<b>July 16 &ndash; July 20 Promotion: Get the first Kindle book for free now. Volumes 2 and 3 are also discounted...</b>
+<!--You can find the graphic novel paperbacks and Kindle e-books in the Amazon store.-->
 </p>
 <p>
 <a class="illustration_outer_larger" href="https://www.amazon.co.uk/dp/B07X8FT2C8" target="_blank">

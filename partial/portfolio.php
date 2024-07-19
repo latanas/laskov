@@ -18,7 +18,7 @@ Further, I studied Computer Arts at Abertay University and graduated in July 202
 </p>
 
 <p>
-While I studied the mathematical foundations of artifical inteligence, I've never used generative AI for artwork.
+While I studied the mathematical foundations of artifical intelligence, I've never used generative AI for artwork.
 I did multi-agent systems, nature-inspired and genetic algorithms, optimization, reinforcement learning, natural language processing.
 <p>
 

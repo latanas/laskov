@@ -21,8 +21,7 @@ Zak is a talented engineer oppressed by the Inquisitors of Altos. Pesky acolytes
 A mysterious organization is spying on the engineer from vantage point in the sky...
 </p>
 <p>
-<b>July 16 &ndash; July 20 Promotion: Get the first Kindle book for free now. Volumes 2 and 3 are also discounted...</b>
-<!--You can find the graphic novel paperbacks and Kindle e-books in the Amazon store.-->
+You can find the graphic novel paperbacks and Kindle e-books in the Amazon store.
 </p>
 <p>
 <a class="illustration_outer_larger" href="https://www.amazon.co.uk/dp/B07X8FT2C8" target="_blank">

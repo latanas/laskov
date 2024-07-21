@@ -22,10 +22,6 @@ While I studied the mathematical foundations of artifical intelligence, I've nev
 I did multi-agent systems, nature-inspired and genetic algorithms, optimization, reinforcement learning, natural language processing.
 <p>
 
-<p>
-I wrote an <a href="/ethics/">ethics statement</a> about generative data models.
-<p>
-
 <h3 id="city">City Design App</h3>
 <p>
 Currently, I'm working on a city design app:

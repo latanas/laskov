@@ -78,41 +78,6 @@ In order to draw character designs, human anatomy is an important topic for arti
 ?>
 </p>
 
-<h3>Tree of Life Infographic</h3>
-
-<p>
-I made the following infographic in Adobe InDesign. 
-It contains ten planetary spheres and icons for them.
-Each sphere on the Tree corresponds to some Platonic ideal,
-for example "Strenght" and "Passion", "Imagination"
-which I illustrated.
-</p>
-
-<p>
-You can open the infographic by clicking on the first thumbnail below.
-Notice the zig-zag line that connects sphere &#35;1 to &#35;10.
-This is known as "The Lightning Flash", it is a guided tour that symbolizes how Platonic ideals flow from the highest spheres down to Earth. 
-
-</p>
-
-
-<p>
-  <?php
-   $folder="color";
-   template_illustration("ALaskov_TreeOfLife_Infographic_Colonna1100.jpg", 76, 95, 0); /* 11, 87, 0); */
-   template_illustration("ALAskov_Sephirot10_1100.jpg", 54, 46, 0);
-   template_illustration("ALaskov_Sephirot09_1100.jpg", 52, 56, 0);
-   template_illustration("ALaskov_Sephirot08_1100.jpg", 43, 37, 0);
-   template_illustration("ALaskov_Sephirot07_1100.jpg", 56, 50, 0);
-   template_illustration("ALaskov_Sephirot06_1100.jpg", 43, 56, 0);
-   template_illustration("ALaskov_Sephirot05_1100.jpg", 32, 47, 0);
-   template_illustration("ALaskov_Sephirot04_1100.jpg", 51, 50, 0);
-   template_illustration("ALaskov_Sephirot03_1100.jpg", 56, 40, 0);
-   template_illustration("ALaskov_Sephirot02_1100.jpg", 33, 30, 0);
-   template_illustration("ALaskov_Sephirot01_1100.jpg", 25, 32, 0);
-?>
-</p>
-
 <h3>Character Designs</h3>
 <p>
 Here are some examples of my character designs I did for graphic novels and for animation.

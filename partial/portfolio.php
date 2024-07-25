@@ -35,9 +35,9 @@ Currently, I'm working on a city design app:
    <li>
       I'm implementing the client in Angular 18, expore the code on <a href="http://www.github.com/latanas/city-client/" target="_blank">GitHub</a>.
    </li>
-   <li>
+   <!--<li>
       The server will be a Java service, currently work in progress on <a href="http://www.github.com/latanas/city-server/" target="_blank">GitHub</a>.
-   </li>
+   </li>-->
    <li>
      The video below shows my Figma prototype with the latest version of the UI design.
    </li>

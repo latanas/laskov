@@ -14,7 +14,7 @@ by <strong>Atanas Laskov</strong>
 <p>Hi there, my name is Atanas Laskov.
 My professional work experience includes TypeScript, JavaScript, Java and C++. I studied Computer Systems at Technical University Sofia.
 After that I went on to study Artificial Intelligence at Edinburgh University, graduating with Distinction.
-Further, I studied Computer Arts at Abertay University and graduated in July 2024 with 1<sup>st</sup> class degree.
+Further, I studied Computer Arts at Abertay University and graduated in July 2024 with 1<sup>st</sup> class degree (TIGA accredited).
 </p>
 
 <p>

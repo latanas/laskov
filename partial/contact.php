@@ -20,12 +20,12 @@
     <span class="glyph">Mastodon</span>
   </a>
 
-  <a class="footer_link" href="https://www.behance.net/latanas" target="_blank" rel="nofollow">
-    <span class="glyph">Behance</span>
+  <a class="footer_link" href="https://laskov.artstation.com/" target="_blank" rel="nofollow">
+    <span class="glyph">ArtStation</span>
   </a>
 
-  <a class="footer_link" href="https://www.artstation.com/laskov" target="_blank" rel="nofollow">
-    <span class="glyph">ArtStation</span>
+  <a class="footer_link" href="https://www.behance.net/latanas" target="_blank" rel="nofollow">
+    <span class="glyph">Behance</span>
   </a>
 
   <a class="footer_link" href="https://www.instagram.com/atanaslaskov/" target="_blank" rel="nofollow">

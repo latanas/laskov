@@ -28,10 +28,10 @@
   <a href="https://mastodon.social/@laskov" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-Mastodon.png" ?>" title="Mastodon" style="width: 16px; height: 16px;" /></a>
   &nbsp;
 
-  <a href="https://www.behance.net/latanas" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-Behance.png" ?>" title="Behance" style="width: 16px; height: 16px;" /></a>
+  <a href="https://laskov.artstation.com/" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-ArtStation.png" ?>" title="ArtStation" style="width: 16px; height: 16px;" /></a>
   &nbsp;
 
-  <a href="https://www.artstation.com/laskov" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-ArtStation.png" ?>" title="ArtStation" style="width: 16px; height: 16px;" /></a>
+  <a href="https://www.behance.net/latanas" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-Behance.png" ?>" title="Behance" style="width: 16px; height: 16px;" /></a>
   &nbsp;
 
   <a href="https://www.instagram.com/atanaslaskov/" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-Instagram.png" ?>" title="Instagram" style="width: 16px; height: 16px;" /></a>

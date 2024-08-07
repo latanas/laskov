@@ -15,7 +15,7 @@ by <strong>Atanas Laskov</strong>
 
 <p>
 I made the following illustrations in Adobe Photoshop and InDesign. 
-Each illustrations corresponds to some Platonic ideal, for example "Strenght", "Passion", "Imagination".
+Each illustration corresponds to some Platonic ideal, for example "Strenght", "Passion", "Imagination".
 There are 10 ideal spheres, known as Sephirot, and together they are arranged in the "Tree of Life".
 </p>
 
@@ -38,7 +38,7 @@ It combines the Platonic idealism of the Renaissance with Jewish mysticism, as w
    template_illustration("ALaskov_Sephirot02_1100.jpg", 33, 30, 0);
    template_illustration("ALaskov_Sephirot01_1100.jpg", 25, 32, 0);
 
-   template_illustration("ALaskov_TreeOfLife_Infographic_Colonna1100.jpg", 73, 95, 0);
+   /*template_illustration("ALaskov_TreeOfLife_Infographic_Colonna1100.jpg", 73, 95, 0);*/
    
 ?>
 </p>

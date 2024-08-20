@@ -13,7 +13,7 @@ by <strong>Atanas Laskov</strong>
 
 <h3 id="gn">Graphic Novels</h3>
 <p>
-I published 3 volumes of the graphic novel "Wings of Steel". This is a complete fantasy story with 125 manga illustractions.
+I published 3 volumes of the graphic novel "Wings of Steel". This is a complete fantasy story with 125 illustrations.
 </p>
 
 <p>

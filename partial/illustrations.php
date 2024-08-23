@@ -11,6 +11,33 @@
 by <strong>Atanas Laskov</strong>
 </header>
 
+<h3>Tree of Life</h3>
+
+<p>
+I made the following illustrations in Adobe Photoshop and InDesign. 
+Each illustration corresponds to some Platonic ideal, for example "Strenght", "Passion", "Imagination".
+There are 10 ideal spheres, known as Sephirot, and together they are arranged in the "Tree of Life".
+</p>
+
+<p>
+  <?php
+   $folder="color";
+   template_illustration("ALAskov_Sephirot10_1100.jpg", 54, 46, 0);
+   template_illustration("ALaskov_Sephirot09_1100.jpg", 52, 56, 0);
+   template_illustration("ALaskov_Sephirot08_1100.jpg", 43, 37, 0);
+   template_illustration("ALaskov_Sephirot07_1100.jpg", 56, 50, 0);
+   template_illustration("ALaskov_Sephirot06_1100.jpg", 43, 56, 0);
+   template_illustration("ALaskov_Sephirot05_1100.jpg", 32, 47, 0);
+   template_illustration("ALaskov_Sephirot04_1100.jpg", 51, 50, 0);
+   template_illustration("ALaskov_Sephirot03_1100.jpg", 56, 40, 0);
+   template_illustration("ALaskov_Sephirot02_1100.jpg", 33, 30, 0);
+   template_illustration("ALaskov_Sephirot01_1100.jpg", 25, 32, 0);
+
+   /*template_illustration("ALaskov_TreeOfLife_Infographic_Colonna1100.jpg", 73, 95, 0);*/
+   
+?>
+</p>
+
 <h3 id="gn">Graphic Novels</h3>
 <p>
 I published 3 volumes of the graphic novel "Wings of Steel". This is a complete fantasy story with 125 illustrations.
@@ -56,6 +83,27 @@ In order to draw character designs, human anatomy is an important topic for arti
   template_illustration("laskov_ultra_simplified_front_047_port.jpg", 9, 14);
   ?>
 </p>
+
+<!--<h3 id="anatomy">Animation</h3>
+
+<p>My animated 2D work is produced in Adobe Animate, here are some examples:</p>
+
+<p>
+  <?php
+   $folder="color";
+
+   template_illustration("ALAskov_Monster1100.gif", 45, 40, 0);
+   template_illustration("ALaskov_Girl1100.gif", 53, 21, 0);
+   template_illustration("LaskovTeapotAnim.gif", 65, 13, 0);
+   template_illustration("LaskovSpriteAnim.gif", 55, 40, 0);
+   template_illustration("LaskovFlameAnim.gif", 50, 70, 0);
+   template_illustration("LaskovRavenAnim.gif", 50, 40, 0);
+   template_illustration("LaskovCompassAnim.gif", 50, 50, 0);
+   template_illustration("LaskovTempleAnim.gif", 36, 76, 0);
+   /*template_illustration("ALaskov_Boxer_Showreel_16_9.gif", 63, 89, 0);
+   template_video_poster("ALaskov_Boxer_Showreel_16_9.gif","ALaskov_Boxer_Showreel_16_9", "ALaskov_Boxer_Showreel_16_9", 170);  */
+?>
+</p>-->
 
 <h3>Character Designs</h3>
 <p>

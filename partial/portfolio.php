@@ -18,8 +18,8 @@ Further, I studied Computer Arts at Abertay University and graduated in July 202
 </p>
 
 <p>
-While I studied the mathematical foundations of artifical intelligence, I've never used generative AI for artwork.
-I did multi-agent systems, nature-inspired and genetic algorithms, optimization, reinforcement learning, natural language processing.
+I've never used generative AI for artwork, but I studied the mathematical foundations of artificial inteligence.
+I did multi-agent systems, genetic algorithms, optimization, reinforcement learning, and natural language processing, including LLMs.
 <p>
 
 <h3 id="city">City Design App</h3>

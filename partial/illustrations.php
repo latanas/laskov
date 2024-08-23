@@ -21,7 +21,7 @@ There are 10 ideal spheres, known as Sephirot, and together they are arranged in
 
 <p>
 Renaissance philosophers Cornelius Agrippa and Pico Mirandola hoped that the "Tree of Life" can unify all the different classical cultures.
-It combines the Platonic idealism of the Renaissance with Jewish mysticism, as well as Greco-Roman-Egyptian influences.
+It combines the Platonic idealism of the Renaissance with Ancient Jewish mysticism, as well as Greco-Roman-Egyptian culture.
 </p>
 
 <p>

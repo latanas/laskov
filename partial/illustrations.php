@@ -11,7 +11,7 @@
 by <strong>Atanas Laskov</strong>
 </header>
 
-<h3>Tree of Life</h3>
+<h3>"Tree of Life" Illusrations</h3>
 
 <p>
 I made the following illustrations in Adobe Photoshop and InDesign. 
@@ -32,7 +32,6 @@ There are 10 ideal spheres, known as Sephirot, and together they are arranged in
    template_illustration("ALaskov_Sephirot03_1100.jpg", 56, 40, 0);
    template_illustration("ALaskov_Sephirot02_1100.jpg", 33, 30, 0);
    template_illustration("ALaskov_Sephirot01_1100.jpg", 25, 32, 0);
-
    /*template_illustration("ALaskov_TreeOfLife_Infographic_Colonna1100.jpg", 73, 95, 0);*/
    
 ?>

@@ -24,24 +24,25 @@ I did multi-agent systems, genetic algorithms, optimization, reinforcement learn
 
 <h3 id="city">City Design App</h3>
 <p>
-Currently, I'm working on a city design app:
+My final project at Abertay was to design a web app that allows the user to make their own Surrealist city.
+Each building represents in some way the user’s emotions, and the city is a psychological landscape they can share with others.
+Beauty creates positive emotional affects, thus enhancing creativity and sociability, and as result making people more tolerant. 
 </p>
 
 <p>
 <ul>
-   <li>
-      You can <a href="http://www.atanaslaskov.com/city/" target="_blank">test the app</a> in your web browser.
+    <li>
+      You can see the <a href="/wp-content/themes/laskov/asset/document/Laskov Case Study.pdf" target="_blank">case study here</a> in PDF format.
    </li>
    <li>
-      I'm implementing the client in Angular 18, expore the code on <a href="http://www.github.com/latanas/city-client/" target="_blank">GitHub</a>.
+     The video below shows my Figma prototype, based on the case study.
    </li>
-   <!--<li>
-      The server will be a Java service, currently work in progress on <a href="http://www.github.com/latanas/city-server/" target="_blank">GitHub</a>.
-   </li>-->
    <li>
-     The video below shows my Figma prototype with the latest version of the UI design.
+      I'm now implementing the app in Angular, explore the code <a href="http://www.github.com/latanas/city-client/" target="_blank">on GitHub</a>.
    </li>
-
+   <li>
+        You can also <a href="http://www.atanaslaskov.com/city/" target="_blank">try the app in your browser</a>.
+   </li>
 </ul>
 </p>
 

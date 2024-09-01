@@ -12,7 +12,7 @@ by <strong>Atanas Laskov</strong>
 </header>
 
 <p>Hi there, my name is Atanas Laskov.
-My professional work experience includes TypeScript, JavaScript, Java and C++. I studied Computer Systems at Technical University Sofia.
+My professional work experience is in TypeScript, JavaScript, Java and C++. I studied Computer Systems at Technical University Sofia.
 After that I went on to study Artificial Intelligence at Edinburgh University, graduating with Distinction.
 Further, I studied Computer Arts at Abertay University and graduated in July 2024 with 1<sup>st</sup> class degree (TIGA accredited).
 </p>
@@ -25,8 +25,7 @@ I did multi-agent systems, genetic algorithms, optimization, reinforcement learn
 <h3 id="city">City Design App</h3>
 <p>
 My final project at Abertay was to design a web app that allows the user to make their own Surrealist city.
-Each building represents in some way the user’s emotions, and the city is a psychological landscape they can share with others.
-Beauty creates positive emotional affects, thus enhancing creativity and sociability, and as result making people more tolerant. 
+Each building represents in some way the user’s emotions, and the city is a psychological landscape they can share.
 </p>
 
 <p>

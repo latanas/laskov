@@ -35,7 +35,7 @@ Beauty creates positive emotional affects, thus enhancing creativity and sociabi
       You can see the <a href="/wp-content/themes/laskov/asset/document/Laskov Case Study.pdf" target="_blank">case study here</a> in PDF format.
    </li>
    <li>
-     The video below shows my Figma prototype, based on the case study.
+     The video below shows my Figma prototype of the case study.
    </li>
    <li>
       I'm now implementing the app in Angular, explore the code <a href="http://www.github.com/latanas/city-client/" target="_blank">on GitHub</a>.

@@ -51,10 +51,10 @@ Beauty creates positive emotional affects, thus enhancing creativity and sociabi
 <h3 id="british_red_cross">Supporting the British Red Cross (UI/UX Design, Animation)</h3>
 <p>
 In this  game you explore a beautiful town threatened by a dangerous storm. 
-I did the UI design and icon design in Adobe Illustrator, the character animation in Adobe Animate.
+I did the UI design and icon design in Adobe Illustrator and Figma.
 </p><p>
-The project gave me the opportunity to do visual effects animation for wind, rain and sparkles in Unity Engine.
-Some of the Unity Engine prefabs for the UI also are my work.
+The project gave me the opportunity to do visual effects for weather in Unity Engine,
+as well as creating prefabs for the UI in the editor and with C# scripts.
 </p>
 
 

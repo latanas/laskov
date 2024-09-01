@@ -76,26 +76,6 @@ UI Screenshots
   ?>
 </p>
 
-All characters are Symbol-based animations produced in Adobe Animate, for example this girl:
-<p class="illustration_block" >
-<?php
-   $folder="color";
-   template_illustration("ALaskov_GirlAnim.gif", 5, 55, 0);
-?>
-</p>
-
-In-Game Screenshots:
-<p class="illustration_block" >
-  <?php
-  $folder="screens"; 
-  template_illustration("Moonsprite Project 16_05_2023 06_50_18.png", 39,44, 0);
-  template_illustration("Moonsprite Project 15_05_2023 20_21_40.png", 43,41, 0);
-  template_illustration("Moonsprite Project 15_05_2023 20_19_40.png", 48,41, 0);
-  template_illustration("Moonsprite Project 15_05_2023 20_23_46.png", 46,42, 0);
-  
-  ?>
-</p>
-
 <h3 id="blob">Web Games</h3>
 
 <p>

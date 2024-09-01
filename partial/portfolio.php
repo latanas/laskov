@@ -46,21 +46,21 @@ Beauty creates positive emotional affects, thus enhancing creativity and sociabi
 </ul>
 </p>
 
-<iframe width="550" height="400" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/nlSantuzmDs?si=2RT-c4Ednjn2pJ0k" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="400" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/nlSantuzmDs?si=2RT-c4Ednjn2pJ0k" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br />
 
-<h3 id="british_red_cross">Supporting the British Red Cross (UI/UX Design, Animation)</h3>
+<h3 id="british_red_cross">Supporting the British Red Cross (UI/UX Design)</h3>
 <p>
-In this  game you explore a beautiful town threatened by a dangerous storm. 
-I did the UI design and icon design in Adobe Illustrator and Figma.
-</p><p>
+In this game you explore a town threatened by a storm to highlight the effects of climate change. 
+I did the UI and icon design in Adobe Illustrator, prototyped it in Figma.
 The project gave me the opportunity to do visual effects for weather in Unity Engine,
-as well as creating prefabs for the UI in the editor and with C# scripts.
+as well as some C# scripts and prefabs.
 </p>
+<br />
 
-
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/827318432?h=671a249412" width="550" height="300" frameborder="0" allowfullscreen></iframe>
-
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/827318432?h=671a249412" width="560" height="300" frameborder="0" allowfullscreen></iframe>
 <br/><br/>
+
 UI Screenshots
 <p class="illustration_block" >
   <?php

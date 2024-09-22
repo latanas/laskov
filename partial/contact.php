@@ -32,6 +32,10 @@
     <span class="glyph">Instagram</span>
   </a>
 
+  <a class="footer_link" href="https://laskov.gumroad.com/" target="_blank" rel="nofollow">
+    <span class="glyph">Prints</span>
+  </a>
+
   <a class="footer_link" href="https://www.goodreads.com/laskov" target="_blank" rel="nofollow">
     <span class="glyph">Goodreads</span>
   </a>
@@ -43,6 +47,10 @@
   <a class="footer_link" href="https://www.youtube.com/c/AtanasLaskov" target="_blank" rel="nofollow">
     <span class="glyph">YouTube</span>
   </a>
+
+  
+
+  
 
   <!--<a class="footer_link" href="https://www.figma.com/@laskov" target="_blank" rel="nofollow">
     <span class="glyph">Figma</span>

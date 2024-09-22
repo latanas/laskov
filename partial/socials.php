@@ -37,6 +37,9 @@
   <a href="https://www.instagram.com/atanaslaskov/" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-Instagram.png" ?>" title="Instagram" style="width: 16px; height: 16px;" /></a>
   &nbsp;
 
+  <a href="https://laskov.gumroad.com/" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-Gumroad.jpg" ?>" title="Print Shop" style="width: 16px; height: 16px;" /></a>
+  &nbsp;
+
   <a href="https://www.goodreads.com/laskov" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-Goodreads.png" ?>" title="Goodreads" style="width: 16px; height: 16px;" /></a>
   &nbsp;
 
@@ -47,6 +50,8 @@
   &nbsp;
 
   <a href="https://www.figma.com/@laskov" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-Figma.png" ?>" title="Figma" style="width: 16px; height: 16px;" /></a>
+
+  
 
 <!--
 <br/>

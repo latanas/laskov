@@ -32,9 +32,9 @@
     <span class="glyph">Instagram</span>
   </a>
 
-  <a class="footer_link" href="https://laskov.gumroad.com/" target="_blank" rel="nofollow">
+  <!--<a class="footer_link" href="https://laskov.gumroad.com/" target="_blank" rel="nofollow">
     <span class="glyph">Prints</span>
-  </a>
+  </a>-->
 
   <a class="footer_link" href="https://www.goodreads.com/laskov" target="_blank" rel="nofollow">
     <span class="glyph">Goodreads</span>

@@ -11,7 +11,7 @@
 by <strong>Atanas Laskov</strong>
 </header>
 
-<h3 id="anatomy">2D Animation</h3>
+<h3 id="anatomy">2D Animations</h3>
 
 <p>My animated 2D work is produced in Adobe Animate, here are some examples:</p>
 

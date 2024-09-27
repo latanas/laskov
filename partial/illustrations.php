@@ -11,6 +11,27 @@
 by <strong>Atanas Laskov</strong>
 </header>
 
+<h3 id="anatomy">2D Animation</h3>
+
+<p>My animated 2D work is produced in Adobe Animate, here are some examples:</p>
+
+<p>
+  <?php
+   $folder="color";
+
+   template_illustration("ALAskov_Monster1100.gif", 45, 40, 0);
+   template_illustration("ALaskov_Girl1100.gif", 53, 21, 0);
+   template_illustration("LaskovTeapotAnim.gif", 65, 13, 0);
+   template_illustration("LaskovSpriteAnim.gif", 55, 40, 0);
+   template_illustration("LaskovFlameAnim.gif", 50, 70, 0);
+   template_illustration("LaskovRavenAnim.gif", 50, 40, 0);
+   template_illustration("LaskovCompassAnim.gif", 50, 50, 0);
+   template_illustration("LaskovTempleAnim.gif", 36, 76, 0);
+   /*template_illustration("ALaskov_Boxer_Showreel_16_9.gif", 63, 89, 0);
+   template_video_poster("ALaskov_Boxer_Showreel_16_9.gif","ALaskov_Boxer_Showreel_16_9", "ALaskov_Boxer_Showreel_16_9", 170);  */
+?>
+</p>
+
 <h3>"Tree of Life" Illusrations</h3>
 
 <p>

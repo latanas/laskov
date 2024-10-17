@@ -20,7 +20,7 @@ Each sphere corresponds to some ideal quality, or aspect of the Cosmos.
 </p>
 <p>
 Legend has it that the Tree of Life was revealed to Moses by a priest at the royal court of Egypt.
-It is an important part of the ancient Qabalah, from the text.
+It is an important part of the ancient Qabalah.
 This diagram was used by the Renaissance pholsophpers, such as Cornelius Agrippa,
 who studied the Qabalah and combined it with Platonic idealism and Graeco-Roman-Egyptian culture.
 Pico Mirandola believed that Qabalah can unify all the different classical cultures.
@@ -54,7 +54,7 @@ I published 3 volumes of the graphic novel "Wings of Steel". This is a complete 
 
 <p>
 Zak is a talented engineer oppressed by the Inquisitors of Altos. Pesky acolytes Sue and Zoe don't acknowledge the boy's talent and mock his crude ways.
-High Priestess Lerian wants him thrown in a dungeo... while a mysterious organization is spying on the boy from vantage point in the sky.
+High Priestess Lerian wants him thrown in a dungeon... while a mysterious organization is spying on him from vantage point in the sky.
 </p>
 <p>
 You can find the graphic novel paperbacks and Kindle e-books in the Amazon store.

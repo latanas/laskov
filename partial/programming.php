@@ -7,19 +7,19 @@
 */ ?> 
 
 <header class="sketchbook_post">
-<h1>Portfolio</h1>
+<h1>Programming</h1>
 by <strong>Atanas Laskov</strong>
 </header>
 
-<p>Hi there, my name is Atanas Laskov.
+<p>
 My professional work experience is in TypeScript, JavaScript, Java and C++. I studied Computer Systems at Technical University Sofia.
 After that I went on to study Artificial Intelligence at Edinburgh University, graduating with Distinction.
 Further, I studied Computer Arts at Abertay University and graduated in July 2024 with 1<sup>st</sup> class degree (TIGA accredited).
 </p>
 
 <p>
-In the past I haven't used generative AI for artwork, but I studied the mathematical foundations of artificial inteligence.
-I did multi-agent systems, genetic algorithms, optimization, reinforcement learning, and natural language processing, including LLMs.
+I studied the mathematical foundations of artificial inteligence, including
+multi-agent systems, genetic algorithms, optimization, reinforcement learning, and natural language processing.
 <p>
 
 <h3 id="city">City Design App</h3>
@@ -37,7 +37,7 @@ Each building represents in some way the user’s emotions, and the city is a ps
      The video below shows my Figma prototype of the case study.
    </li>
    <li>
-      I'm now implementing the app in Angular, explore the code <a href="http://www.github.com/latanas/city-client/" target="_blank">on GitHub</a>.
+      I'm now implementing the app in Angular, explore the code <a href="http://www.github.com/latanas/city/" target="_blank">on GitHub</a>.
    </li>
    <li>
         You can also <a href="http://www.atanaslaskov.com/city/" target="_blank">try the app in your browser</a>.

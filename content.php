@@ -20,10 +20,13 @@
     <?php
       $template_name = get_template_name();
       if(is_front_page()) {
-        $template_name = "portfolio";
+        $template_name = "artwork";
+      }
+      else if(is_page("programming")) {
+        $template_name = "programming";
       }
       else if(is_page("illustrations")) {
-        $template_name = "illustrations";
+        $template_name = "artwork";
       }
 
     ?>

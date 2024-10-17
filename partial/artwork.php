@@ -7,38 +7,27 @@
 */ ?>
 
 <header class="sketchbook_post">
-<h1>Illustrations</h1>
+<h1>Artwork</h1>
 by <strong>Atanas Laskov</strong>
 </header>
 
-<h3 id="anatomy">2D Animations</h3>
-
-<p>My animated 2D work is produced in Adobe Animate, here are some examples:</p>
-
-<p>
-  <?php
-   $folder="color";
-
-   template_illustration("ALAskov_Monster1100.gif", 45, 40, 0);
-   template_illustration("ALaskov_Girl1100.gif", 53, 21, 0);
-   template_illustration("LaskovTeapotAnim.gif", 65, 13, 0);
-   template_illustration("LaskovSpriteAnim.gif", 55, 40, 0);
-   template_illustration("LaskovFlameAnim.gif", 50, 70, 0);
-   template_illustration("LaskovRavenAnim.gif", 50, 40, 0);
-   template_illustration("LaskovCompassAnim.gif", 50, 50, 0);
-   template_illustration("LaskovTempleAnim.gif", 36, 76, 0);
-   /*template_illustration("ALaskov_Boxer_Showreel_16_9.gif", 63, 89, 0);
-   template_video_poster("ALaskov_Boxer_Showreel_16_9.gif","ALaskov_Boxer_Showreel_16_9", "ALaskov_Boxer_Showreel_16_9", 170);  */
-?>
-</p>
-
-<h3>"Tree of Life" Illusrations</h3>
+<h3>Tree of Life Illusrations</h3>
 
 <p>
 I made the following illustrations in Adobe Photoshop and InDesign. 
-Each illustration corresponds to some Platonic ideal, for example "Strenght", "Passion", "Imagination".
-There are 10 ideal spheres, known as Sephirot, and together they are arranged in the "Tree of Life".
+The Tree of Life contains ten planetary spheres known as Sephirot. 
+Each sphere corresponds to some ideal quality, or aspect of the Cosmos.
 </p>
+<p>
+Legend has it that the Tree of Life was revealed to Moses by a priest at the royal court of Egypt.
+It is an important part of the ancient Qabalah, from the text.
+This diagram was used by the Renaissance pholsophpers, such as Cornelius Agrippa,
+who studied the Qabalah and combined it with Platonic idealism and Graeco-Roman-Egyptian culture.
+Pico Mirandola believed that Qabalah can unify all the different classical cultures.
+</p>
+
+<!--Each illustration corresponds to some Platonic ideal, for example "Strenght", "Passion", "Imagination".
+There are 10 ideal spheres, known as Sephirot, and together they are arranged in the "Tree of Life".-->
 
 <p>
   <?php
@@ -64,8 +53,8 @@ I published 3 volumes of the graphic novel "Wings of Steel". This is a complete 
 </p>
 
 <p>
-Zak is a talented engineer oppressed by the Inquisitors of Altos. Pesky acolytes Sue and Zoe don't acknowledge the boy's talent and mock his crude ways, while Priestess Lerian wants him thrown in a dungeon.
-A mysterious organization is spying on the engineer from vantage point in the sky...
+Zak is a talented engineer oppressed by the Inquisitors of Altos. Pesky acolytes Sue and Zoe don't acknowledge the boy's talent and mock his crude ways.
+High Priestess Lerian wants him thrown in a dungeo... while a mysterious organization is spying on the boy from vantage point in the sky.
 </p>
 <p>
 You can find the graphic novel paperbacks and Kindle e-books in the Amazon store.
@@ -83,7 +72,6 @@ You can find the graphic novel paperbacks and Kindle e-books in the Amazon store
  <img src="<?= get_template_path() ?>/asset/image/Laskov_WoS_3.jpg" alt="Wings of Steel: Dreamer of the Void" />
 </a>
 </p>
-
 
 <h3 id="anatomy">Anatomy</h3>
 <p>
@@ -104,9 +92,9 @@ In order to draw character designs, human anatomy is an important topic for arti
   ?>
 </p>
 
-<!--<h3 id="anatomy">Animation</h3>
+<h3 id="anatomy">2D Animations</h3>
 
-<p>My animated 2D work is produced in Adobe Animate, here are some examples:</p>
+<p>My animated 2D work is produced in Adobe Animate, and with the grease pencil in Blender.</p>
 
 <p>
   <?php
@@ -123,7 +111,7 @@ In order to draw character designs, human anatomy is an important topic for arti
    /*template_illustration("ALaskov_Boxer_Showreel_16_9.gif", 63, 89, 0);
    template_video_poster("ALaskov_Boxer_Showreel_16_9.gif","ALaskov_Boxer_Showreel_16_9", "ALaskov_Boxer_Showreel_16_9", 170);  */
 ?>
-</p>-->
+</p>
 
 <h3>Character Designs</h3>
 <p>
@@ -143,11 +131,8 @@ Here are some examples of my character designs I did for graphic novels and for 
   template_illustration("AtanasLaskov_Kid02.jpg", 43,22,0);
   template_illustration("AtanasLaskov_Monster03.jpg", 8,32,0);
 
-
-
    $folder = "bw";
    template_illustration("ThracianMercenaryGrayscale_1100.jpg", 25,25,0);
-
 
   $folder="color";
 
@@ -168,9 +153,8 @@ Here are some examples of my character designs I did for graphic novels and for 
   $folder = "bw";
   template_illustration("laskov_concept001_clean_up_1100.jpg", 42,20);
 
-$folder="color";
+  $folder="color";
   template_illustration("laskov_portrait_002.jpg", 73,23,0);
-
 
   ?>
 </p>

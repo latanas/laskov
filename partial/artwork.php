@@ -11,7 +11,7 @@
 by <strong>Atanas Laskov</strong>
 </header>
 
-<h3>Tree of Life Illusrations</h3>
+<h3>Tree of Life Illustrations</h3>
 
 <p>
 I made the following illustrations in Adobe Photoshop and InDesign. 

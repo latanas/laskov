@@ -17,10 +17,10 @@ After that I went on to study Artificial Intelligence at Edinburgh University, g
 Further, I studied Computer Arts at Abertay University and graduated in July 2024 with 1<sup>st</sup> class degree (TIGA accredited).
 </p>
 
-<p>
+<!--<p>
 I studied the mathematical foundations of artificial inteligence, including
 multi-agent systems, genetic algorithms, optimization, reinforcement learning, and natural language processing.
-<p>
+<p>-->
 
 <h3 id="city">City Design App</h3>
 <p>

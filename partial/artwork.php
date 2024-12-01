@@ -18,7 +18,7 @@ I published 3 volumes of the graphic novel "Wings of Steel". This is a complete 
 
 <p>
 Zak is a talented engineer oppressed by the Inquisitors of Altos. Pesky acolytes Sue and Zoe don't acknowledge the boy's talent and mock his crude ways.
-High Priestess Lerian wants him thrown in a dungeon... while a mysterious organization is spying on him from vantage point in the sky.
+High Priestess Lerian wants him thrown in a dungeon... while a mysterious organization is spying on the boy from vantage point in the sky.
 </p>
 <p>
 You can find the graphic novel paperbacks and Kindle e-books in the Amazon store.

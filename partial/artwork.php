@@ -11,35 +11,18 @@
 by <strong>Atanas Laskov</strong>
 </header>
 
-<h3 id="gn">Graphic Novels</h3>
-<p>
-I published 3 volumes of the graphic novel "Wings of Steel". This is a complete fantasy story with 125 illustrations.
-</p>
-
-<p>
-Zak is a talented engineer oppressed by the Inquisitors of Altos. Pesky acolytes Sue and Zoe don't acknowledge the boy's talent and mock his crude ways.
-High Priestess Lerian wants him thrown in a dungeon... while a mysterious organization is spying on the boy from vantage point in the sky.
-</p>
-<p>
-You can find the graphic novel paperbacks and Kindle e-books in the Amazon store.
-</p>
-<p>
-<a class="illustration_outer_larger" href="https://www.amazon.co.uk/dp/B07X8FT2C8" target="_blank">
- <img src="<?= get_template_path() ?>/asset/image/Laskov_WoS_1.jpg" alt="Wings of Steel: Young-adult steampunk adventure" />
-</a>
-
-<a class="illustration_outer_larger" href="https://www.amazon.co.uk/dp/B08LTSDQNS" target="_blank">
- <img src="<?= get_template_path() ?>/asset/image/Laskov_WoS_2.jpg" alt="Wings of Steel: Shards of Jade" />
-</a>
-
-<a class="illustration_outer_larger" href="https://www.amazon.co.uk/dp/B08V8W1W8J" target="_blank">
- <img src="<?= get_template_path() ?>/asset/image/Laskov_WoS_3.jpg" alt="Wings of Steel: Dreamer of the Void" />
-</a>
-</p>
 
 <h3 id="anatomy">Anatomy</h3>
 <p>
-In order to draw character designs, human anatomy is an important topic for artists. For this reason, I published a pocket reference "Human Anatomy." This is intended to help artists and illustrators by giving them a "key" to use while working on graphic novels, comics, games, animation, and in other types of media projects.  Included are the proportions, head drawing, torso, upper and lower extremity. All parts of the body are covered in multiple views, allowing the artist to follow through, understanding and memorizing the anatomy. The ultimate objective is to be able to draw the human body from imagination. As a graphic novel author, I'm using this book when working on my own projects.</p>
+In order to draw character designs, human anatomy is an important topic for artists. For this reason, I published a pocket reference "Human Anatomy."
+This is intended to help artists and illustrators by giving them a "key" to use while working on graphic novels, comics, games, animation, and in other types of media projects.
+Included are the proportions, head drawing, torso, upper and lower extremity.
+All parts of the body are covered in multiple views, allowing the artist to follow through, understanding and memorizing the anatomy.
+The ultimate objective is to be able to draw the human body from imagination. As a graphic novel author, I'm using this book when working on my own projects.</p>
+
+<p>
+The link below is for Amazon UK, my anatomy book is available in the USA <a href="https://www.amazon.com/Anatomy-Reference-Artists-Atanas-Laskov/dp/B08DC84HF8" target="_blank">here</a>.
+</p>
 <p>
 <a class="illustration_outer_larger" href="https://www.amazon.co.uk/dp/B08DC84HF8" target="_blank" rel="nofollow">
  <img src="<?= get_template_path() ?>/asset/image/Laskov_Anatomy.jpg" alt="Human Anatomy Pocket Reference for Artists" />
@@ -55,6 +38,32 @@ In order to draw character designs, human anatomy is an important topic for arti
   template_illustration("laskov_ultra_simplified_front_047_port.jpg", 9, 14);
   template_illustration("ALaskov_SkullLow.jpg", 6, 30);
   ?>
+</p>
+
+<h3 id="gn">Graphic Novels</h3>
+<p>
+I published 3 volumes of the graphic novel "Wings of Steel". This is a complete fantasy story with 125 manga illustrations.
+</p>
+
+<p>
+Zak is a talented engineer oppressed by the Inquisitors of Altos. Pesky acolytes Sue and Zoe don't acknowledge the boy's talent and mock his crude ways.
+High Priestess Lerian wants him thrown in a dungeon... while a mysterious organization is spying on the boy from vantage point in the sky.
+</p>
+<p>
+Links below are for Amazon UK, my graphic novel is also available in the USA <a href="https://www.amazon.com/dp/B08MYZJ5DD?binding=paperback" target="_blank">here</a>.
+</p>
+<p>
+<a class="illustration_outer_larger" href="https://www.amazon.co.uk/dp/1657751821" target="_blank">
+ <img src="<?= get_template_path() ?>/asset/image/Laskov_WoS_1.jpg" alt="Wings of Steel: Young-adult steampunk adventure" />
+</a>
+
+<a class="illustration_outer_larger" href="https://www.amazon.co.uk/dp/B08LGSDR61" target="_blank">
+ <img src="<?= get_template_path() ?>/asset/image/Laskov_WoS_2.jpg" alt="Wings of Steel: Shards of Jade" />
+</a>
+
+<a class="illustration_outer_larger" href="https://www.amazon.co.uk/dp/B08TWFH27S" target="_blank">
+ <img src="<?= get_template_path() ?>/asset/image/Laskov_WoS_3.jpg" alt="Wings of Steel: Dreamer of the Void" />
+</a>
 </p>
 
 <h3>Character Designs</h3>

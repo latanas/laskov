@@ -11,7 +11,6 @@
 by <strong>Atanas Laskov</strong>
 </header>
 
-
 <h3 id="anatomy">Anatomy</h3>
 <p>
 In order to draw character designs, human anatomy is an important topic for artists. For this reason, I published a pocket reference "Human Anatomy."
@@ -20,9 +19,6 @@ Included are the proportions, head drawing, torso, upper and lower extremity.
 All parts of the body are covered in multiple views, allowing the artist to follow through, understanding and memorizing the anatomy.
 The ultimate objective is to be able to draw the human body from imagination. As a graphic novel author, I'm using this book when working on my own projects.</p>
 
-<p>
-The link below is for Amazon UK, my anatomy book is available in the USA <a href="https://www.amazon.com/Anatomy-Reference-Artists-Atanas-Laskov/dp/B08DC84HF8" target="_blank">here</a>.
-</p>
 <p>
 <a class="illustration_outer_larger" href="https://www.amazon.co.uk/dp/B08DC84HF8" target="_blank" rel="nofollow">
  <img src="<?= get_template_path() ?>/asset/image/Laskov_Anatomy.jpg" alt="Human Anatomy Pocket Reference for Artists" />
@@ -49,9 +45,7 @@ I published 3 volumes of the graphic novel "Wings of Steel". This is a complete 
 Zak is a talented engineer oppressed by the Inquisitors of Altos. Pesky acolytes Sue and Zoe don't acknowledge the boy's talent and mock his crude ways.
 High Priestess Lerian wants him thrown in a dungeon... while a mysterious organization is spying on the boy from vantage point in the sky.
 </p>
-<p>
-Links below are for Amazon UK, my graphic novel is also available in the USA <a href="https://www.amazon.com/dp/B08MYZJ5DD?binding=paperback" target="_blank">here</a>.
-</p>
+
 <p>
 <a class="illustration_outer_larger" href="https://www.amazon.co.uk/dp/1657751821" target="_blank">
  <img src="<?= get_template_path() ?>/asset/image/Laskov_WoS_1.jpg" alt="Wings of Steel: Young-adult steampunk adventure" />
@@ -112,7 +106,6 @@ Here are some examples of my character designs I did for graphic novels and for 
   ?>
 </p>
 
-
 <h3>Environments, Buildings &amp; Vehicles</h3>
 <p>
 My illustrations are painted both digitally and traditionally, so I consider them mixed-media. 
@@ -150,39 +143,12 @@ I strive for creativity and technical excellence in my artwork.
   ?>
 </p>
 
-<!--<h3 id="3d">3D Modelling</h3>
-
-<p>
-  <?php
-   $folder="color";
-   template_illustration("ALaskov_Ra_FinalVertical_1100.jpg", 44, 5, 0);
-   template_illustration("ALaskov_Ra_Sculpt_1100.jpg", 20, 15, 0);
-   template_illustration("ALaslov_Ra_HeadSculptComposed_1100.jpg", 30, 20, 0);
-   template_illustration("ALaskov_HeadSculpt_VerticalComposed_1100.jpg", 20, 45, 0);
-
-   template_illustration("Trees.jpg", 50, 5, 0);
-   template_illustration("ALaskov_4_ExusCave.jpg", 50, 9, 0);
-   template_illustration("Exu.jpg", 18, 6, 0);
-   template_illustration("MariaPadilha.jpg", 21, 3, 0);
-   template_illustration("LaskovBoat.jpg", 85, 8, 0);
-   template_illustration("Composition.jpg", 86, 23, 0);
-?>
-</p>
-
-
 <h3>Tree of Life Illustrations</h3>
 
 <p>
-I made the following illustrations in Adobe Photoshop and InDesign. 
-The Tree of Life contains ten planetary spheres known as Sephirot. 
-Each sphere corresponds to some ideal quality, or aspect of the Cosmos.
-</p>
-<p>
-Legend has it that the Tree of Life was revealed to Moses by a priest at the royal court of Egypt.
-It is an important part of the ancient Qabalah.
-This diagram was used by the Renaissance pholsophpers, such as Cornelius Agrippa,
-who studied the Qabalah and combined it with Platonic idealism and Graeco-Roman-Egyptian culture.
-Pico Mirandola believed that Qabalah can unify all the different classical cultures.
+The Tree of Life contains ten planetary spheres, known as the Sephirot. Each sphere corresponds to some ideal Platonic quality, or aspect of the Cosmos illustrated by an image.
+</p><p>
+Legend has it that the Tree of Life was revealed to Moses by a priest at the royal court of Egypt. It is also an important part of the Hermetic Qabalah. This diagram was used by the Renaissance philosophpers, such as Cornelius Agrippa, who studied the Hermetic Qabalah and combined it with Platonic idealism and Græco-Roman-Egyptian culture. Pico Mirandola believed that Qabalah can unify all the different classical cultures.
 </p>
 
 <p>
@@ -203,6 +169,24 @@ Pico Mirandola believed that Qabalah can unify all the different classical cultu
 ?>
 </p>
 
+<!--<h3 id="3d">3D Modelling</h3>
+
+<p>
+  <?php
+   $folder="color";
+   template_illustration("ALaskov_Ra_FinalVertical_1100.jpg", 44, 5, 0);
+   template_illustration("ALaskov_Ra_Sculpt_1100.jpg", 20, 15, 0);
+   template_illustration("ALaslov_Ra_HeadSculptComposed_1100.jpg", 30, 20, 0);
+   template_illustration("ALaskov_HeadSculpt_VerticalComposed_1100.jpg", 20, 45, 0);
+
+   template_illustration("Trees.jpg", 50, 5, 0);
+   template_illustration("ALaskov_4_ExusCave.jpg", 50, 9, 0);
+   template_illustration("Exu.jpg", 18, 6, 0);
+   template_illustration("MariaPadilha.jpg", 21, 3, 0);
+   template_illustration("LaskovBoat.jpg", 85, 8, 0);
+   template_illustration("Composition.jpg", 86, 23, 0);
+?>
+</p>
 
 <h3 id="anatomy">2D Animations</h3>
 

@@ -7,7 +7,7 @@
 */ ?>
 
 <?php if( true /*!is_front_page()*/  ) { ?>
-<div id="mc_embed_signup">
+<div id="mc_embed_signup" style="text-align: center; text-wrap: nowrap;">
 
 <form action="https://outlook.us4.list-manage.com/subscribe/post?u=b1947e9a8a656d53af2c782e3&amp;id=b436413781"
 		method="post"

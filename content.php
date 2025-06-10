@@ -20,6 +20,9 @@
     <?php
       $template_name = get_template_name();
       if(is_front_page()) {
+        $template_name = "programming";
+      }
+      else if(is_page("artwork")) {
         $template_name = "artwork";
       }
       else if(is_page("programming")) {

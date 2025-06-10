@@ -12,9 +12,11 @@ by <strong>Atanas Laskov</strong>
 </header>
 
 <p>
-My professional work experience is in TypeScript, JavaScript, Java and C++. I studied Computer Systems at Technical University Sofia.
+My professional work experience is in C#, Java, C++ and JavaScript/TypeScript.
+I studied Computer Systems at Technical University Sofia.
 After that I went on to study Artificial Intelligence at Edinburgh University, graduating with Distinction.
-Further, I studied Computer Arts at Abertay University and graduated in July 2024 with 1<sup>st</sup> class degree (TIGA accredited).
+Further, I studied Computer Arts at Abertay University and graduated in 2024 with 1<sup>st</sup> class degree (TIGA accredited).
+I am interested in web technologies and game development.
 </p>
 
 <!--<p>
@@ -45,7 +47,7 @@ Each building represents in some way the user’s emotions, and the city is a ps
 </ul>
 </p>
 
-<iframe width="560" height="400" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/nlSantuzmDs?si=2RT-c4Ednjn2pJ0k" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="400" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/nlSantuzmDs?si=2RT-c4Ednjn2pJ0k" title="Surrealist City Builder" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br />
 
 <h3 id="british_red_cross">Supporting the British Red Cross (UI/UX Design)</h3>
@@ -57,8 +59,8 @@ as well as some C# scripts and prefabs.
 </p>
 <br />
 
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/827318432?h=671a249412" width="560" height="300" frameborder="0" allowfullscreen></iframe>
-<br/><br/>
+<iframe width="560" height="400" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/cFxDSbTzavQ?si=iCk6qTMLoof2umbx" title="Weather Ready or Not" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br /><br />
 
 UI Screenshots
 <p class="illustration_block" >

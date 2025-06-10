@@ -8,10 +8,11 @@
   illustration-prints"
 */ ?>
 <nav>
-  <?php foreach( array("artwork", "programming", "sketchbook") as $template ): ?>
-    <a href="<?= get_home_url() . "/" . ($template == "artwork"? "" : $template) ?>"
+  <?php foreach( array("programming", "artwork", "sketchbook") as $template ): ?>
+    <a href="<?= get_home_url() . "/" . ($template == "programming"? "" : $template) ?>"
       class="<?=
-        ( is_front_page() && ($template == "artwork") )
+        ( is_front_page() && ($template == "programming") )
+        || ( is_page("artwork") && ($template == "artwork") )
         || ( is_page("programming") && ($template == "programming") )
         || ( is_home() && ($template == "sketchbook") )
         ? 'activated' : '' ?>"><?= ucfirst($template) ?></a>

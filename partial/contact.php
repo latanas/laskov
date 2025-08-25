@@ -20,6 +20,10 @@
     <span class="glyph">Mastodon</span>
   </a>
 
+  <a class="footer_link" href="https://bsky.app/profile/laskov.co.uk" target="_blank" rel="nofollow">
+    <span class="glyph">BlueSky</span>
+  </a>
+
   <a class="footer_link" href="https://laskov.artstation.com/" target="_blank" rel="nofollow">
     <span class="glyph">ArtStation</span>
   </a>
@@ -28,32 +32,19 @@
     <span class="glyph">Behance</span>
   </a>
 
-  <a class="footer_link" href="https://www.instagram.com/atanaslaskov/" target="_blank" rel="nofollow">
-    <span class="glyph">Instagram</span>
+  <a class="footer_link" href="https://www.youtube.com/c/AtanasLaskov" target="_blank" rel="nofollow">
+    <span class="glyph">YouTube</span>
   </a>
-
-  <!--<a class="footer_link" href="https://laskov.gumroad.com/" target="_blank" rel="nofollow">
-    <span class="glyph">Prints</span>
-  </a>-->
+  
+  <a class="footer_link" href="https://vimeo.com/laskov" target="_blank" rel="nofollow">
+    <span class="glyph">Vimeo</span>
+  </a>
 
   <a class="footer_link" href="https://www.goodreads.com/laskov" target="_blank" rel="nofollow">
     <span class="glyph">Goodreads</span>
   </a>
 
-  <a class="footer_link" href="https://vimeo.com/laskov" target="_blank" rel="nofollow">
-    <span class="glyph">Vimeo</span>
-  </a>
-
-  <a class="footer_link" href="https://www.youtube.com/c/AtanasLaskov" target="_blank" rel="nofollow">
-    <span class="glyph">YouTube</span>
-  </a>
-
-  
-
-  
-
-  <!--<a class="footer_link" href="https://www.figma.com/@laskov" target="_blank" rel="nofollow">
+  <a class="footer_link" href="https://www.figma.com/@laskov" target="_blank" rel="nofollow">
     <span class="glyph">Figma</span>
-  </a>-->
-
+  </a>
 </p>

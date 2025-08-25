@@ -83,8 +83,6 @@ Here are some examples of my character designs I did for graphic novels and for 
 
   $folder="color";
 
-  template_illustration("ALaskov_Legba_concept_clean_cp.jpg", 13,46,0);
-  template_illustration("ALaskov_Ochossi_concept_clean_cp.jpg", 16,42,0);
   template_illustration("ALAskov_BoxerConcept_b.jpg", 13,14,0);
 
 
@@ -143,51 +141,19 @@ I strive for creativity and technical excellence in my artwork.
   ?>
 </p>
 
-<h3>Tree of Life Illustrations</h3>
 
-<p>
-The Tree of Life contains ten planetary spheres, known as the Sephirot. Each sphere corresponds to some ideal Platonic quality, or aspect of the Cosmos illustrated by an image.
-</p><p>
-Legend has it that the Tree of Life was revealed to Moses by a priest at the royal court of Egypt. It is also an important part of the Hermetic Qabalah. This diagram was used by the Renaissance philosophpers, such as Cornelius Agrippa, who studied the Hermetic Qabalah and combined it with Platonic idealism and Græco-Roman-Egyptian culture. Pico Mirandola believed that Qabalah can unify all the different classical cultures.
-</p>
+<h3 id="3d">3D Modelling</h3>
 
 <p>
   <?php
    $folder="color";
-   template_illustration("ALAskov_Sephirot10_1100.jpg", 54, 46, 0);
-   template_illustration("ALaskov_Sephirot09_1100.jpg", 52, 56, 0);
-   template_illustration("ALaskov_Sephirot08_1100.jpg", 43, 37, 0);
-   template_illustration("ALaskov_Sephirot07_1100.jpg", 56, 50, 0);
-   template_illustration("ALaskov_Sephirot06_1100.jpg", 43, 56, 0);
-   template_illustration("ALaskov_Sephirot05_1100.jpg", 32, 47, 0);
-   template_illustration("ALaskov_Sephirot04_1100.jpg", 51, 50, 0);
-   template_illustration("ALaskov_Sephirot03_1100.jpg", 56, 40, 0);
-   template_illustration("ALaskov_Sephirot02_1100.jpg", 33, 30, 0);
-   template_illustration("ALaskov_Sephirot01_1100.jpg", 25, 32, 0);
-   /*template_illustration("ALaskov_TreeOfLife_Infographic_Colonna1100.jpg", 73, 95, 0);*/
-   
-?>
-</p>
-
-<!--<h3 id="3d">3D Modelling</h3>
-
-<p>
-  <?php
-   $folder="color";
-   template_illustration("ALaskov_Ra_FinalVertical_1100.jpg", 44, 5, 0);
    template_illustration("ALaskov_Ra_Sculpt_1100.jpg", 20, 15, 0);
    template_illustration("ALaslov_Ra_HeadSculptComposed_1100.jpg", 30, 20, 0);
    template_illustration("ALaskov_HeadSculpt_VerticalComposed_1100.jpg", 20, 45, 0);
-
-   template_illustration("Trees.jpg", 50, 5, 0);
-   template_illustration("ALaskov_4_ExusCave.jpg", 50, 9, 0);
-   template_illustration("Exu.jpg", 18, 6, 0);
-   template_illustration("MariaPadilha.jpg", 21, 3, 0);
-   template_illustration("LaskovBoat.jpg", 85, 8, 0);
    template_illustration("Composition.jpg", 86, 23, 0);
 ?>
 </p>
-
+<!--
 <h3 id="anatomy">2D Animations</h3>
 
 <p>My animated 2D work is produced in Adobe Animate, and with the grease pencil in Blender.</p>

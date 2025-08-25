@@ -15,7 +15,7 @@ if ( have_posts() ) :
       $year_of_publishing = get_the_date("Y");
 
     echo "<header class=\"sketchbook_post\">";
-    echo "<h3><a href='" . get_permalink() . "'>" . ucwords(get_the_title()) . "</a></h3>";
+    echo "<h3>" . ucwords(get_the_title()) . "</h3>";
     echo "<strong> " . get_the_date() . " </strong>";
     echo "<strong> " . get_the_time() . " </strong>";
     echo "</header>";

@@ -7,7 +7,7 @@
 */ ?>
 
 <?php if( true /*!is_front_page()*/  ) { ?>
-<div id="mc_embed_signup" style="text-align: center; text-wrap: nowrap;">
+<div id="mc_embed_signup">
 
 <form action="https://outlook.us4.list-manage.com/subscribe/post?u=b1947e9a8a656d53af2c782e3&amp;id=b436413781"
 		method="post"
@@ -28,25 +28,22 @@
   <a href="https://mastodon.social/@laskov" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-Mastodon.png" ?>" title="Mastodon" style="width: 16px; height: 16px;" /></a>
   &nbsp;
 
+    <a href="https://bsky.app/profile/laskov.co.uk" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-BlueSky.png" ?>" title="BlueSky" style="width: 16px; height: 16px;" /></a>
+  &nbsp;
+
   <a href="https://laskov.artstation.com/" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-ArtStation.png" ?>" title="ArtStation" style="width: 16px; height: 16px;" /></a>
   &nbsp;
 
   <a href="https://www.behance.net/latanas" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-Behance.png" ?>" title="Behance" style="width: 16px; height: 16px;" /></a>
   &nbsp;
 
-  <a href="https://www.instagram.com/atanaslaskov/" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-Instagram.png" ?>" title="Instagram" style="width: 16px; height: 16px;" /></a>
+  <a href="https://www.youtube.com/c/AtanasLaskov" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-YouTube.png" ?>" title="YouTube" style="width: 16px; height: 16px;" /></a>
   &nbsp;
-
-  <!--<a href="https://laskov.gumroad.com/" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-Gumroad.jpg" ?>" title="Print Shop" style="width: 16px; height: 16px;" /></a>
-  &nbsp;-->
-
-  <a href="https://www.goodreads.com/laskov" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-Goodreads.png" ?>" title="Goodreads" style="width: 16px; height: 16px;" /></a>
-  &nbsp;
-
+  
   <a href="https://vimeo.com/laskov" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-Vimeo.png" ?>" title="Vimeo" style="width: 16px; height: 16px;" /></a>
   &nbsp;
 
-  <a href="https://www.youtube.com/c/AtanasLaskov" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-YouTube.png" ?>" title="YouTube" style="width: 16px; height: 16px;" /></a>
+  <a href="https://www.goodreads.com/laskov" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-Goodreads.png" ?>" title="Goodreads" style="width: 16px; height: 16px;" /></a>
   &nbsp;
 
   <a href="https://www.figma.com/@laskov" target="_blank" rel="nofollow"><img src="<?php echo "/wp-content/themes/laskov/asset/image/btn-Figma.png" ?>" title="Figma" style="width: 16px; height: 16px;" /></a>

@@ -32,6 +32,10 @@
     <span class="glyph">Behance</span>
   </a>
 
+  <a class="footer_link" href="https://www.tiktok.com/@atanas_laskov" target="_blank" rel="nofollow">
+    <span class="glyph">TikTok</span>
+  </a>
+
   <a class="footer_link" href="https://www.instagram.com/atanaslaskov/" target="_blank" rel="nofollow">
     <span class="glyph">Instagram</span>
   </a>

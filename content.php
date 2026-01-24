@@ -37,12 +37,16 @@
     <article class="content_area" id="template_<?= $template_name ?>" >
       <?php include "partial/" . $template_name . ".php"; ?>
     </article>
-	
+    
+    <h3 class="copy">
+      <?php posts_nav_link($sep = ' &nbsp;&nbsp;&nbsp; ', $prelabel = '&laquo; See the previous sketch', $nxtlabel = 'See the next sketch &raquo;'); ?>
+    </h3>
+
 	<?php
 	  if (is_null($year_of_publishing)) {
-        $year_of_publishing = 2024;
+        $year_of_publishing = 2026;
       }
-      echo "<h3 class='copy'>Copyright &copy; {$year_of_publishing} Atanas Laskov. All Rights Reserved.</h3>";
+      echo "<h3 class='copy'>Copyright &copy; {$year_of_publishing} Atanas Laskov. All Rights Reserved.</h3> <br/>";
 	?>
 	
 	<?php if( get_template_name() == "sketchbook") {template_pagination();} ?>

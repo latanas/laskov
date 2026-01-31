@@ -38,8 +38,8 @@
       <?php include "partial/" . $template_name . ".php"; ?>
     </article>
     
-    <h3 class="copy">
-      <?php posts_nav_link($sep = ' &nbsp;&nbsp;&nbsp; ', $prelabel = '&laquo; See the previous sketch', $nxtlabel = 'See the next sketch &raquo;'); ?>
+    <h3 class="copy" style="font-size: 25px;">
+      <?php posts_nav_link($sep = ' &nbsp; ', $prelabel = '&laquo; See previous sketch', $nxtlabel = 'See next sketch &raquo;'); ?>
     </h3>
 
 	<?php

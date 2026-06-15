@@ -754,9 +754,27 @@ body {
        width: 100%  !important;
    }
 
+   article p {
+    font-size: 23px;
+   }
+
+   article li {
+    font-size: 23px;
+   }
+
+   article h3 {
+    font-size: 30px;
+   }
+
+   .play {
+    font-size: 16px;
+   }
+
    a svg {
     width: 32px;
     height: 32px;
+    margin-left: 10px;
+    margin-right: 10px;
    }
 }
 

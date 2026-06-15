@@ -779,3 +779,8 @@ body {
    }
 }
 
+@media (hover: none) {
+    a svg {
+        opacity: 100%;
+    }
+}

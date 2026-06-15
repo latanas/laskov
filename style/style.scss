@@ -159,6 +159,9 @@ a svg {
     -moz-transition: opacity 0.5s;
     -o-transition:opacity 0.5s;
     transition: opacity 0.5s;
+
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 a svg:hover {

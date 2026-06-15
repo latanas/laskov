@@ -147,6 +147,29 @@ nav a.activated {
 }
 
 /*
+  SVG Icons
+*/
+
+a svg {
+    width: 24px;
+    height: 24px;
+
+    opacity: 75%;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -o-transition:opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+a svg:hover {
+    opacity: 100%;
+}
+
+a svg path {
+    fill: #a7b97d;
+}
+
+/*
   Content area styles
 */
 
@@ -727,4 +750,10 @@ body {
    .gumroad-button img {  
        width: 100%  !important;
    }
+
+   a svg {
+    width: 32px;
+    height: 32px;
+   }
 }
+

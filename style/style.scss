@@ -153,23 +153,23 @@ nav a.activated {
 a svg {
     width: 24px;
     height: 24px;
-
-    opacity: 75%;
-    -webkit-transition: opacity 0.5s;
-    -moz-transition: opacity 0.5s;
-    -o-transition:opacity 0.5s;
-    transition: opacity 0.5s;
+    opacity: 90%;
 
     padding-left: 8x;
     padding-right: 8px;
 }
 
-a svg:hover {
-    opacity: 100%;
-}
-
 a svg path {
     fill: #a7b97d;
+    
+    -webkit-transition: fill 0.5s;
+    -moz-transition: fill 0.5s;
+    -o-transition:fill 0.5s;
+    transition: fill 0.5s;
+}
+
+a svg:hover path {
+    fill: #555 !important;
 }
 
 /*
